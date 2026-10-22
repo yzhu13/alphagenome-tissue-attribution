@@ -1,0 +1,19 @@
+calibration,metric,loci,eye score,fake-eye median,eye percentile among fakes,P(fake eye ranks #1)
+AlphaGenome |q| (common-variant background),mean,eye,0.56016284,0.5384433,0.9648,0.0316
+AlphaGenome |q| (common-variant background),mean,kidney,0.54720354,0.5421494,0.6444,0.1284
+AlphaGenome |q| (common-variant background),mean,metabolic,0.5434592,0.5353226,0.8716,0.0904
+AlphaGenome |q| (common-variant background),strong fraction,eye,0.10351736,0.07502226,0.9978,0.034
+AlphaGenome |q| (common-variant background),strong fraction,kidney,0.085864164,0.08020431,0.736,0.0322
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,0.07873787,0.07199029,0.8792,0.1202
+"null pct, random null",mean,eye,0.5524715,0.53265566,0.9346,0.047
+"null pct, random null",mean,kidney,0.53936744,0.53652203,0.5796,0.142
+"null pct, random null",mean,metabolic,0.53540725,0.5294565,0.7374,0.153
+"null pct, random null",strong fraction,eye,0.1052983,0.077025816,0.987,0.0692
+"null pct, random null",strong fraction,kidney,0.089039214,0.081032574,0.7506,0.0676
+"null pct, random null",strong fraction,metabolic,0.08150485,0.073106796,0.8484,0.1746
+"null pct, matched null",mean,eye,0.5493192,0.52281,0.9946,0.0174
+"null pct, matched null",mean,kidney,0.53627604,0.52720535,0.7794,0.135
+"null pct, matched null",mean,metabolic,0.53242,0.5204571,0.9838,0.0642
+"null pct, matched null",strong fraction,eye,0.09105076,0.07212823,0.9754,0.0188
+"null pct, matched null",strong fraction,kidney,0.07689122,0.076615125,0.5122,0.0306
+"null pct, matched null",strong fraction,metabolic,0.07,0.0692233,0.5656,0.1042

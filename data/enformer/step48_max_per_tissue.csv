@@ -1,0 +1,9 @@
+tracks,loci,"Spearman(max, n tracks)",top,top n tracks,eye rank,eye n tracks
+all,eye,0.8391608391608393,heart_vascular,230,12,20
+all,kidney,0.9230769230769231,reproductive,302,12,20
+all,metabolic,0.9230769230769231,immune,374,12,20
+all,null,0.9230769230769231,immune,374,12,20
+DNASE,eye,0.8181818181818183,immune,72,10,8
+DNASE,kidney,0.7272727272727274,immune,72,12,8
+DNASE,metabolic,0.7972027972027973,immune,72,10,8
+DNASE,null,0.7622377622377624,immune,72,12,8

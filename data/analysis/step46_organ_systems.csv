@@ -1,0 +1,14 @@
+method,loci,eye rank,of,top
+"raw, pooled (original pipeline)",eye,1,9,eye
+"raw, pooled (original pipeline)",kidney,1,9,eye
+"raw, pooled (original pipeline)",metabolic,1,9,eye
+"raw, pooled (original pipeline)",null,1,9,eye
+"calibrated, pooled (null pct)",eye,9,9,heart_vascular
+"calibrated, pooled (null pct)",kidney,9,9,heart_vascular
+"calibrated, pooled (null pct)",metabolic,9,9,heart_vascular
+"calibrated DNase, mean |q|",eye,1,9,eye
+"calibrated DNase, mean |q|",kidney,4,9,kidney
+"calibrated DNase, mean |q|",metabolic,3,9,musculoskeletal/skin
+"calibrated DNase, strong fraction",eye,1,9,eye
+"calibrated DNase, strong fraction",kidney,2,9,kidney
+"calibrated DNase, strong fraction",metabolic,1,9,eye

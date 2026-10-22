@@ -1,0 +1,16 @@
+method,"eye rank, eye loci","eye rank, kidney loci","eye rank, metabolic loci"
+"Raw, all assays pooled",1,1,1
+"Calibrated, all assays pooled, random null",12,12,12
+"Calibrated, all assays pooled, matched null",1,12,3
+"Calibrated, DNase only, AlphaGenome |q| (common-variant background), mean",2,5,3
+"Calibrated, DNase only, AlphaGenome |q| (common-variant background), strong fraction",1,3,1
+"Calibrated, DNase only, null pct, matched null, mean",1,3,1
+"Calibrated, DNase only, null pct, matched null, strong fraction",2,5,5
+"Calibrated, DNase only, null pct, random null, mean",2,6,4
+"Calibrated, DNase only, null pct, random null, strong fraction",1,2,1
+"Specificity contrast, DNase only, AlphaGenome |q| (common-variant background), mean",1,12,10
+"Specificity contrast, DNase only, AlphaGenome |q| (common-variant background), strong fraction",1,12,12
+"Specificity contrast, DNase only, null pct, matched null, mean",1,12,10
+"Specificity contrast, DNase only, null pct, matched null, strong fraction",1,10,12
+"Specificity contrast, DNase only, null pct, random null, mean",1,12,10
+"Specificity contrast, DNase only, null pct, random null, strong fraction",1,12,12

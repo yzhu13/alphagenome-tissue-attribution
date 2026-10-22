@@ -1,0 +1,14 @@
+# third-party downloads (see README, "Third-party files")
+data/external/
+# per-variant score tables and caches (Zenodo)
+data/**/parts/
+data/enformer/scores/
+*.parquet
+*.npz
+# machine-specific paths
+scripts/paths_local.py
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/

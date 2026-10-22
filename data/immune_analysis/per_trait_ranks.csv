@@ -1,0 +1,49 @@
+trait,n_loci,method,top,immune rank,eye rank
+CD,257,"a. raw pooled (original scorers, original pipeline)",eye,2,1.0
+CD,257,"b. calibrated pooled (recommended, null pct)",immune,1,12.0
+CD,257,"b'. calibrated pooled (original scorers, null pct)",immune,1,11.0
+CD,257,c. DNase |q| (AlphaGenome quantile),gut,2,10.0
+CD,257,c. DNase null pct,gut,5,10.0
+CD,257,c'. ATAC null pct,immune,1,
+CD,257,c'. RNA null pct,immune,1,
+CD,257,"raw DNase only (original scorer, uncalibrated)",immune,1,2.0
+UC,248,"a. raw pooled (original scorers, original pipeline)",eye,2,1.0
+UC,248,"b. calibrated pooled (recommended, null pct)",immune,1,12.0
+UC,248,"b'. calibrated pooled (original scorers, null pct)",immune,1,7.0
+UC,248,c. DNase |q| (AlphaGenome quantile),kidney,5,2.0
+UC,248,c. DNase null pct,kidney,7,2.0
+UC,248,c'. ATAC null pct,immune,1,
+UC,248,c'. RNA null pct,immune,1,
+UC,248,"raw DNase only (original scorer, uncalibrated)",eye,3,1.0
+RA,234,"a. raw pooled (original scorers, original pipeline)",eye,2,1.0
+RA,234,"b. calibrated pooled (recommended, null pct)",immune,1,12.0
+RA,234,"b'. calibrated pooled (original scorers, null pct)",immune,1,10.0
+RA,234,c. DNase |q| (AlphaGenome quantile),lung,5,9.0
+RA,234,c. DNase null pct,lung,5,9.0
+RA,234,c'. ATAC null pct,immune,1,
+RA,234,c'. RNA null pct,immune,1,
+RA,234,"raw DNase only (original scorer, uncalibrated)",immune,1,2.0
+MS,186,"a. raw pooled (original scorers, original pipeline)",immune,1,2.0
+MS,186,"b. calibrated pooled (recommended, null pct)",immune,1,12.0
+MS,186,"b'. calibrated pooled (original scorers, null pct)",immune,1,11.0
+MS,186,c. DNase |q| (AlphaGenome quantile),immune,1,10.0
+MS,186,c. DNase null pct,immune,1,10.0
+MS,186,c'. ATAC null pct,immune,1,
+MS,186,c'. RNA null pct,immune,1,
+MS,186,"raw DNase only (original scorer, uncalibrated)",immune,1,4.0
+SLE,245,"a. raw pooled (original scorers, original pipeline)",eye,2,1.0
+SLE,245,"b. calibrated pooled (recommended, null pct)",immune,1,12.0
+SLE,245,"b'. calibrated pooled (original scorers, null pct)",immune,1,12.0
+SLE,245,c. DNase |q| (AlphaGenome quantile),immune,1,10.0
+SLE,245,c. DNase null pct,immune,1,10.0
+SLE,245,c'. ATAC null pct,immune,1,
+SLE,245,c'. RNA null pct,immune,1,
+SLE,245,"raw DNase only (original scorer, uncalibrated)",immune,1,3.0
+T1D,157,"a. raw pooled (original scorers, original pipeline)",eye,3,1.0
+T1D,157,"b. calibrated pooled (recommended, null pct)",reproductive,2,12.0
+T1D,157,"b'. calibrated pooled (original scorers, null pct)",immune,1,5.0
+T1D,157,c. DNase |q| (AlphaGenome quantile),kidney,4,3.0
+T1D,157,c. DNase null pct,kidney,4,3.0
+T1D,157,c'. ATAC null pct,immune,1,
+T1D,157,c'. RNA null pct,immune,1,
+T1D,157,"raw DNase only (original scorer, uncalibrated)",immune,1,4.0

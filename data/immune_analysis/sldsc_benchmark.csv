@@ -1,0 +1,49 @@
+trait,method,n_loci,n_categories,rho_tau,sldsc_top,method_top,rank_of_sldsc_top
+CD,"a. raw pooled (original scorers, original pipeline)",257,11,0.46363636363636374,immune,immune,1
+CD,"b. calibrated pooled (recommended, null pct)",257,11,0.46363636363636374,immune,immune,1
+CD,"b'. calibrated pooled (original scorers, null pct)",257,11,0.7727272727272727,immune,immune,1
+CD,c. DNase |q| (AlphaGenome quantile),257,11,0.30000000000000004,immune,gut,2
+CD,c. DNase null pct,257,11,0.13636363636363638,immune,gut,5
+CD,c'. ATAC null pct,257,11,0.10000000000000002,immune,immune,1
+CD,c'. RNA null pct,257,11,0.881818181818182,immune,immune,1
+CD,"raw DNase only (original scorer, uncalibrated)",257,11,0.5363636363636364,immune,immune,1
+UC,"a. raw pooled (original scorers, original pipeline)",248,11,0.5,gut,immune,5
+UC,"b. calibrated pooled (recommended, null pct)",248,11,0.4909090909090909,gut,immune,2
+UC,"b'. calibrated pooled (original scorers, null pct)",248,11,0.690909090909091,gut,immune,3
+UC,c. DNase |q| (AlphaGenome quantile),248,11,0.16363636363636366,gut,kidney,3
+UC,c. DNase null pct,248,11,0.06363636363636364,gut,kidney,4
+UC,c'. ATAC null pct,248,11,0.4909090909090909,gut,immune,5
+UC,c'. RNA null pct,248,11,0.7636363636363637,gut,immune,5
+UC,"raw DNase only (original scorer, uncalibrated)",248,11,0.21818181818181823,gut,skin,4
+RA,"a. raw pooled (original scorers, original pipeline)",234,11,0.19090909090909092,immune,immune,1
+RA,"b. calibrated pooled (recommended, null pct)",234,11,0.045454545454545456,immune,immune,1
+RA,"b'. calibrated pooled (original scorers, null pct)",234,11,0.5,immune,immune,1
+RA,c. DNase |q| (AlphaGenome quantile),234,11,-0.16363636363636366,immune,lung,5
+RA,c. DNase null pct,234,11,-0.19090909090909092,immune,lung,5
+RA,c'. ATAC null pct,234,11,0.20000000000000004,immune,immune,1
+RA,c'. RNA null pct,234,11,-0.23636363636363636,immune,immune,1
+RA,"raw DNase only (original scorer, uncalibrated)",234,11,0.03636363636363637,immune,immune,1
+MS,"a. raw pooled (original scorers, original pipeline)",186,11,0.48181818181818187,immune,immune,1
+MS,"b. calibrated pooled (recommended, null pct)",186,11,-0.08181818181818183,immune,immune,1
+MS,"b'. calibrated pooled (original scorers, null pct)",186,11,0.11818181818181818,immune,immune,1
+MS,c. DNase |q| (AlphaGenome quantile),186,11,0.11818181818181818,immune,immune,1
+MS,c. DNase null pct,186,11,0.14545454545454548,immune,immune,1
+MS,c'. ATAC null pct,186,11,0.45454545454545453,immune,immune,1
+MS,c'. RNA null pct,186,11,-0.018181818181818184,immune,immune,1
+MS,"raw DNase only (original scorer, uncalibrated)",186,11,0.1272727272727273,immune,immune,1
+SLE,"a. raw pooled (original scorers, original pipeline)",245,11,0.16363636363636366,immune,immune,1
+SLE,"b. calibrated pooled (recommended, null pct)",245,11,0.43636363636363645,immune,immune,1
+SLE,"b'. calibrated pooled (original scorers, null pct)",245,11,0.6090909090909091,immune,immune,1
+SLE,c. DNase |q| (AlphaGenome quantile),245,11,0.5,immune,immune,1
+SLE,c. DNase null pct,245,11,0.46363636363636374,immune,immune,1
+SLE,c'. ATAC null pct,245,11,-0.09090909090909091,immune,immune,1
+SLE,c'. RNA null pct,245,11,0.5545454545454546,immune,immune,1
+SLE,"raw DNase only (original scorer, uncalibrated)",245,11,0.38181818181818183,immune,immune,1
+T1D,"a. raw pooled (original scorers, original pipeline)",157,11,0.44545454545454555,kidney,pancreas_islet,4
+T1D,"b. calibrated pooled (recommended, null pct)",157,11,0.26363636363636367,kidney,reproductive,10
+T1D,"b'. calibrated pooled (original scorers, null pct)",157,11,0.5545454545454546,kidney,immune,6
+T1D,c. DNase |q| (AlphaGenome quantile),157,11,0.7000000000000001,kidney,kidney,1
+T1D,c. DNase null pct,157,11,0.7000000000000001,kidney,kidney,1
+T1D,c'. ATAC null pct,157,11,0.23636363636363636,kidney,immune,4
+T1D,c'. RNA null pct,157,11,0.19090909090909092,kidney,immune,10
+T1D,"raw DNase only (original scorer, uncalibrated)",157,11,0.5181818181818182,kidney,immune,9

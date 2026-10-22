@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code or the checklist, please cite the paper."
+title: "When every disease points to the eye: assay-composition artifacts in AlphaGenome-based tissue attribution (code and data)"
+type: software
+license: MIT
+authors:
+  - given-names: Yan
+    family-names: Zhu
+  - given-names: Vrathasha
+    family-names: Vrathasha
+  - given-names: Yuki
+    family-names: Bradford
+  - given-names: Rebecca
+    family-names: Salowe
+  - given-names: Aude Benigne
+    family-names: Ikuzwe Sindikubwabo
+  - given-names: Kenneth
+    family-names: Pham
+  - given-names: Laxmi
+    family-names: Moksha
+  - given-names: Roy
+    family-names: Lee
+  - given-names: Mina
+    family-names: Halimitabrizi
+  - given-names: Isabel
+    family-names: Di Rosa
+  - given-names: Leila
+    family-names: Ghaffari
+  - given-names: Jie
+    family-names: He
+  - given-names: Joan M.
+    family-names: O'Brien
+  - given-names: Shefali
+    family-names: Setia-Verma

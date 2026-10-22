@@ -1,0 +1,41 @@
+analysis,metabolic loci,n,eye_rank,top,eye_over_next,islet_rank,eye_loci_top,kidney_rank_for_kidney_loci,expected_rank
+raw pooled summary,published,5150,1.0,eye,2.066687822341919,,,,
+raw pooled summary,with added loci,5345,1.0,eye,2.0441548824310303,,,,
+calibrated pooled (random null),published,5150,12.0,heart_vascular,,,,,
+calibrated pooled (random null),with added loci,5345,12.0,heart_vascular,,,,,
+"DNase mean, AlphaGenome |q|",published,5150,3.0,skin,,11.0,,,
+"specificity, DNase mean, AlphaGenome |q|",published,5150,10.0,pancreas_islet,,1.0,eye,4.0,
+"DNase mean, AlphaGenome |q|",with added loci,5345,3.0,skin,,11.0,,,
+"specificity, DNase mean, AlphaGenome |q|",with added loci,5345,10.0,pancreas_islet,,1.0,eye,4.0,
+"DNase strong fraction, AlphaGenome |q|",published,5150,1.0,eye,,12.0,,,
+"specificity, DNase strong fraction, AlphaGenome |q|",published,5150,12.0,pancreas_islet,,1.0,eye,4.0,
+"DNase strong fraction, AlphaGenome |q|",with added loci,5345,3.0,skin,,12.0,,,
+"specificity, DNase strong fraction, AlphaGenome |q|",with added loci,5345,12.0,pancreas_islet,,1.0,eye,4.0,
+"DNase mean, null pct, random null",published,5150,4.0,kidney,,11.0,,,
+"specificity, DNase mean, null pct, random null",published,5150,10.0,pancreas_islet,,1.0,eye,4.0,
+"DNase mean, null pct, random null",with added loci,5345,4.0,kidney,,11.0,,,
+"specificity, DNase mean, null pct, random null",with added loci,5345,11.0,pancreas_islet,,1.0,eye,4.0,
+"DNase strong fraction, null pct, random null",published,5150,1.0,eye,,12.0,,,
+"specificity, DNase strong fraction, null pct, random null",published,5150,12.0,pancreas_islet,,1.0,eye,3.0,
+"DNase strong fraction, null pct, random null",with added loci,5345,2.0,kidney,,12.0,,,
+"specificity, DNase strong fraction, null pct, random null",with added loci,5345,12.0,pancreas_islet,,1.0,eye,3.0,
+"DNase mean, null pct, matched null",published,5150,1.0,eye,,11.0,,,
+"specificity, DNase mean, null pct, matched null",published,5150,10.0,pancreas_islet,,1.0,eye,4.0,
+"DNase mean, null pct, matched null",with added loci,5345,1.0,eye,,11.0,,,
+"specificity, DNase mean, null pct, matched null",with added loci,5345,10.0,pancreas_islet,,1.0,eye,4.0,
+"DNase strong fraction, null pct, matched null",published,5150,5.0,skin,,12.0,,,
+"specificity, DNase strong fraction, null pct, matched null",published,5150,12.0,pancreas_islet,,1.0,eye,3.0,
+"DNase strong fraction, null pct, matched null",with added loci,5345,5.0,skin,,12.0,,,
+"specificity, DNase strong fraction, null pct, matched null",with added loci,5345,12.0,pancreas_islet,,1.0,eye,3.0,
+"expected tissue, T2D -> pancreas_islet",published,884,,eye,,,,,12.0
+"expected tissue, hypertension -> heart_vascular",published,1514,,skin,,,,,4.0
+"expected tissue, BMI -> brain",published,1686,,eye,,,,,5.0
+"expected tissue, LDL -> liver",published,136,,liver,,,,,1.0
+"expected tissue, HDL -> liver",published,212,,kidney,,,,,3.0
+"expected tissue, triglycerides -> liver",published,718,,skin,,,,,3.0
+"expected tissue, T2D -> pancreas_islet",with added loci,909,,kidney,,,,,12.0
+"expected tissue, hypertension -> heart_vascular",with added loci,1588,,skin,,,,,3.0
+"expected tissue, BMI -> brain",with added loci,1714,,eye,,,,,5.0
+"expected tissue, LDL -> liver",with added loci,150,,liver,,,,,1.0
+"expected tissue, HDL -> liver",with added loci,220,,kidney,,,,,3.0
+"expected tissue, triglycerides -> liver",with added loci,764,,skin,,,,,3.0

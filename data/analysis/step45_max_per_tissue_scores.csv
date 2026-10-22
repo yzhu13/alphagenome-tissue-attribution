@@ -1,0 +1,97 @@
+loci,tracks,tissue,max_q,n_tracks
+eye,all recommended scorers pooled,brain,0.99012893,54
+eye,all recommended scorers pooled,eye,0.73217493,4
+eye,all recommended scorers pooled,gut,0.9855809,38
+eye,all recommended scorers pooled,heart_vascular,0.9902097,92
+eye,all recommended scorers pooled,immune,0.98762405,69
+eye,all recommended scorers pooled,kidney,0.98063135,23
+eye,all recommended scorers pooled,liver,0.97991174,21
+eye,all recommended scorers pooled,lung,0.9869937,34
+eye,all recommended scorers pooled,muscle_adipose,0.9872325,38
+eye,all recommended scorers pooled,pancreas_islet,0.9751532,13
+eye,all recommended scorers pooled,reproductive,0.98865145,35
+eye,all recommended scorers pooled,skin,0.98614585,40
+eye,DNase only,brain,0.8533245,23
+eye,DNase only,eye,0.73217493,4
+eye,DNase only,gut,0.77671134,9
+eye,DNase only,heart_vascular,0.8337434,27
+eye,DNase only,immune,0.84634286,25
+eye,DNase only,kidney,0.8078992,12
+eye,DNase only,liver,0.78701186,8
+eye,DNase only,lung,0.8193004,10
+eye,DNase only,muscle_adipose,0.80467254,13
+eye,DNase only,pancreas_islet,0.6765407,4
+eye,DNase only,reproductive,0.7796208,9
+eye,DNase only,skin,0.82858497,20
+kidney,all recommended scorers pooled,brain,0.99276304,54
+kidney,all recommended scorers pooled,eye,0.7224864,4
+kidney,all recommended scorers pooled,gut,0.99045336,38
+kidney,all recommended scorers pooled,heart_vascular,0.9932759,92
+kidney,all recommended scorers pooled,immune,0.9923122,69
+kidney,all recommended scorers pooled,kidney,0.9872376,23
+kidney,all recommended scorers pooled,liver,0.9872707,21
+kidney,all recommended scorers pooled,lung,0.9908557,34
+kidney,all recommended scorers pooled,muscle_adipose,0.9911244,38
+kidney,all recommended scorers pooled,pancreas_islet,0.98336864,13
+kidney,all recommended scorers pooled,reproductive,0.99240214,35
+kidney,all recommended scorers pooled,skin,0.99026483,40
+kidney,DNase only,brain,0.84710556,23
+kidney,DNase only,eye,0.7224864,4
+kidney,DNase only,gut,0.78598064,9
+kidney,DNase only,heart_vascular,0.8332841,27
+kidney,DNase only,immune,0.85210603,25
+kidney,DNase only,kidney,0.8043009,12
+kidney,DNase only,liver,0.79437935,8
+kidney,DNase only,lung,0.8208686,10
+kidney,DNase only,muscle_adipose,0.80029297,13
+kidney,DNase only,pancreas_islet,0.6820618,4
+kidney,DNase only,reproductive,0.78385437,9
+kidney,DNase only,skin,0.82593125,20
+metabolic,all recommended scorers pooled,brain,0.98999923,54
+metabolic,all recommended scorers pooled,eye,0.7204464,4
+metabolic,all recommended scorers pooled,gut,0.98490196,38
+metabolic,all recommended scorers pooled,heart_vascular,0.98989666,92
+metabolic,all recommended scorers pooled,immune,0.98706365,69
+metabolic,all recommended scorers pooled,kidney,0.97979,23
+metabolic,all recommended scorers pooled,liver,0.97970134,21
+metabolic,all recommended scorers pooled,lung,0.9861206,34
+metabolic,all recommended scorers pooled,muscle_adipose,0.98697495,38
+metabolic,all recommended scorers pooled,pancreas_islet,0.97502434,13
+metabolic,all recommended scorers pooled,reproductive,0.98900145,35
+metabolic,all recommended scorers pooled,skin,0.98561287,40
+metabolic,DNase only,brain,0.8491793,23
+metabolic,DNase only,eye,0.7204464,4
+metabolic,DNase only,gut,0.7776436,9
+metabolic,DNase only,heart_vascular,0.82951236,27
+metabolic,DNase only,immune,0.8469791,25
+metabolic,DNase only,kidney,0.8001208,12
+metabolic,DNase only,liver,0.78798443,8
+metabolic,DNase only,lung,0.8166226,10
+metabolic,DNase only,muscle_adipose,0.7994443,13
+metabolic,DNase only,pancreas_islet,0.68324137,4
+metabolic,DNase only,reproductive,0.77895814,9
+metabolic,DNase only,skin,0.82268757,20
+null,all recommended scorers pooled,brain,0.9832065,54
+null,all recommended scorers pooled,eye,0.68291706,4
+null,all recommended scorers pooled,gut,0.97294325,38
+null,all recommended scorers pooled,heart_vascular,0.981886,92
+null,all recommended scorers pooled,immune,0.97640604,69
+null,all recommended scorers pooled,kidney,0.9637528,23
+null,all recommended scorers pooled,liver,0.9639646,21
+null,all recommended scorers pooled,lung,0.97543544,34
+null,all recommended scorers pooled,muscle_adipose,0.9763872,38
+null,all recommended scorers pooled,pancreas_islet,0.9558314,13
+null,all recommended scorers pooled,reproductive,0.9817123,35
+null,all recommended scorers pooled,skin,0.97458816,40
+null,DNase only,brain,0.83712137,23
+null,DNase only,eye,0.68291706,4
+null,DNase only,gut,0.7486283,9
+null,DNase only,heart_vascular,0.8094705,27
+null,DNase only,immune,0.8289641,25
+null,DNase only,kidney,0.7727867,12
+null,DNase only,liver,0.7669043,8
+null,DNase only,lung,0.79071635,10
+null,DNase only,muscle_adipose,0.7714323,13
+null,DNase only,pancreas_islet,0.65524423,4
+null,DNase only,reproductive,0.7572487,9
+null,DNase only,skin,0.8033624,20

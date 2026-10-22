@@ -1,0 +1,16 @@
+# Versions used for the paper (Python 3.13). The tool in tool/ needs only numpy and pandas.
+numpy==2.3.3
+pandas==2.3.3
+scipy==1.16.2
+statsmodels==0.14.6
+matplotlib==3.10.6
+pyarrow==21.0.0
+openpyxl==3.1.5
+tabulate==0.10.0
+requests==2.32.5
+PyMuPDF==1.27.2.2
+# AlphaGenome scoring (steps 01, 34) needs an API key in ALPHAGENOME_API_KEY
+# alphagenome==0.6.1
+# Enformer replication (step 47)
+# torch==2.8.0
+# enformer-pytorch==0.8.12

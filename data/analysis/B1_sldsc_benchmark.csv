@@ -1,0 +1,31 @@
+trait,method,n_loci,n_categories,rho_tau,rho_tau_max,sldsc_top,method_top,rank_of_sldsc_top
+BMI,"raw, original pipeline",1686,11,-0.02727272727272728,0.17272727272727276,brain,skin,5
+BMI,calibrated DNase |q|,1686,11,0.22727272727272727,0.3181818181818182,brain,skin,4
+BMI,calibrated DNase top-5%,1686,11,0.045454545454545456,0.11818181818181818,brain,muscle_adipose,4
+BMI,"null-calibrated, recommended all assays",1686,11,0.5,0.3545454545454546,brain,heart_vascular,7
+BMI,"null-calibrated, ORIGINAL scorer",1686,11,-0.10909090909090911,-0.21818181818181823,brain,muscle_adipose,6
+LDL,"raw, original pipeline",136,11,0.5181818181818182,0.16363636363636366,liver,liver,1
+LDL,calibrated DNase |q|,136,11,0.13636363636363638,0.009090909090909092,liver,gut,8
+LDL,calibrated DNase top-5%,136,11,0.28181818181818186,0.5,liver,liver,1
+LDL,"null-calibrated, recommended all assays",136,11,0.009090909090909092,0.18181818181818182,liver,reproductive,6
+LDL,"null-calibrated, ORIGINAL scorer",136,11,0.41818181818181827,0.33636363636363636,liver,liver,1
+HDL,"raw, original pipeline",212,11,0.24545454545454545,0.09090909090909091,liver,liver,1
+HDL,calibrated DNase |q|,212,11,-0.15454545454545454,-0.1272727272727273,liver,lung,7
+HDL,calibrated DNase top-5%,212,11,0.4272727272727273,0.19090909090909092,liver,kidney,3
+HDL,"null-calibrated, recommended all assays",212,11,-0.3181818181818182,0.21818181818181823,liver,gut,8
+HDL,"null-calibrated, ORIGINAL scorer",212,11,-0.07272727272727274,0.48181818181818187,liver,liver,1
+triglycerides,"raw, original pipeline",718,11,0.1272727272727273,-0.14545454545454548,liver,skin,2
+triglycerides,calibrated DNase |q|,718,11,-0.3181818181818182,-0.45454545454545453,liver,skin,7
+triglycerides,calibrated DNase top-5%,718,11,-0.1272727272727273,-0.4909090909090909,liver,skin,2
+triglycerides,"null-calibrated, recommended all assays",718,11,0.02727272727272728,0.4090909090909091,liver,heart_vascular,8
+triglycerides,"null-calibrated, ORIGINAL scorer",718,11,0.4272727272727273,0.5545454545454546,liver,liver,1
+T2D,"raw, original pipeline",884,11,0.19090909090909092,-0.4272727272727273,pancreas_islet,kidney,6
+T2D,calibrated DNase |q|,884,11,0.10000000000000002,-0.11818181818181818,pancreas_islet,lung,7
+T2D,calibrated DNase top-5%,884,11,-0.045454545454545456,-0.05454545454545456,pancreas_islet,kidney,11
+T2D,"null-calibrated, recommended all assays",884,11,0.22727272727272727,0.11818181818181818,pancreas_islet,heart_vascular,5
+T2D,"null-calibrated, ORIGINAL scorer",884,11,0.1272727272727273,-0.26363636363636367,pancreas_islet,immune,5
+hypertension,"raw, original pipeline",1514,11,0.23636363636363636,0.018181818181818184,kidney,skin,3
+hypertension,calibrated DNase |q|,1514,11,0.6545454545454547,0.6181818181818182,kidney,kidney,1
+hypertension,calibrated DNase top-5%,1514,11,0.5636363636363637,0.48181818181818187,kidney,skin,2
+hypertension,"null-calibrated, recommended all assays",1514,11,0.44545454545454555,0.7727272727272727,kidney,heart_vascular,8
+hypertension,"null-calibrated, ORIGINAL scorer",1514,11,0.5545454545454546,0.6363636363636364,kidney,muscle_adipose,7

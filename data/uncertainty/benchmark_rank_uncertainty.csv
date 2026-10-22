@@ -1,0 +1,61 @@
+trait,expected,set,method,rank,interval,P(expected #1)
+BMI,brain,primary,"raw, pooled (original pipeline)",6,3–9,0.0
+BMI,brain,primary,"calibrated DNase, mean |q|",5,3–10,0.0
+BMI,brain,primary,strong fraction |q|>=0.90,5,3–7,0.002
+BMI,brain,primary,strong fraction |q|>=0.95,5,1–9,0.028
+BMI,brain,primary,strong fraction |q|>=0.99,4,1–11,0.032
+LDL,liver,primary,"raw, pooled (original pipeline)",1,1–5,0.616
+LDL,liver,primary,"calibrated DNase, mean |q|",8,2–12,0.02
+LDL,liver,primary,strong fraction |q|>=0.90,1,1–7,0.494
+LDL,liver,primary,strong fraction |q|>=0.95,1,1–7,0.542
+LDL,liver,primary,strong fraction |q|>=0.99,1,1–7,0.548
+HDL,liver,primary,"raw, pooled (original pipeline)",2,1–3,0.166
+HDL,liver,primary,"calibrated DNase, mean |q|",7,1–11,0.032
+HDL,liver,primary,strong fraction |q|>=0.90,8,1–12,0.05
+HDL,liver,primary,strong fraction |q|>=0.95,3,1–10,0.142
+HDL,liver,primary,strong fraction |q|>=0.99,1,1–10,0.514
+triglycerides,liver,primary,"raw, pooled (original pipeline)",3,2–10,0.002
+triglycerides,liver,primary,"calibrated DNase, mean |q|",8,1–11,0.036
+triglycerides,liver,primary,strong fraction |q|>=0.90,3,1–10,0.222
+triglycerides,liver,primary,strong fraction |q|>=0.95,3,1–10,0.126
+triglycerides,liver,primary,strong fraction |q|>=0.99,2,1–10,0.164
+T2D,pancreas_islet,primary,"raw, pooled (original pipeline)",7,2–12,0.0
+T2D,pancreas_islet,primary,"calibrated DNase, mean |q|",8,1–12,0.096
+T2D,pancreas_islet,primary,strong fraction |q|>=0.90,11,2–12,0.024
+T2D,pancreas_islet,primary,strong fraction |q|>=0.95,12,3–12,0.006
+T2D,pancreas_islet,primary,strong fraction |q|>=0.99,8,1–12,0.048
+hypertension,heart_vascular,primary,"raw, pooled (original pipeline)",6,3–11,0.0
+hypertension,heart_vascular,primary,"calibrated DNase, mean |q|",6,2–10,0.01
+hypertension,heart_vascular,primary,strong fraction |q|>=0.90,5,3–10,0.002
+hypertension,heart_vascular,primary,strong fraction |q|>=0.95,4,1–8,0.074
+hypertension,heart_vascular,primary,strong fraction |q|>=0.99,4,1–9,0.136
+eGFR,kidney,primary,"raw, pooled (original pipeline)",3,2–7,0.006
+eGFR,kidney,primary,"calibrated DNase, mean |q|",2,1–5,0.31
+eGFR,kidney,primary,strong fraction |q|>=0.90,2,1–6,0.3
+eGFR,kidney,primary,strong fraction |q|>=0.95,1,1–5,0.558
+eGFR,kidney,primary,strong fraction |q|>=0.99,1,1–5,0.626
+CKD,kidney,primary,"raw, pooled (original pipeline)",4,2–9,0.0
+CKD,kidney,primary,"calibrated DNase, mean |q|",2,1–8,0.226
+CKD,kidney,primary,strong fraction |q|>=0.90,1,1–7,0.394
+CKD,kidney,primary,strong fraction |q|>=0.95,1,1–7,0.39
+CKD,kidney,primary,strong fraction |q|>=0.99,9,2–12,0.016
+UACR,kidney,primary,"raw, pooled (original pipeline)",5,3–9,0.0
+UACR,kidney,primary,"calibrated DNase, mean |q|",3,1–9,0.182
+UACR,kidney,primary,strong fraction |q|>=0.90,1,1–8,0.242
+UACR,kidney,primary,strong fraction |q|>=0.95,1,1–7,0.484
+UACR,kidney,primary,strong fraction |q|>=0.99,2,1–8,0.344
+glaucoma,eye,secondary,"raw, pooled (original pipeline)",1,1–1,0.978
+glaucoma,eye,secondary,"calibrated DNase, mean |q|",1,1–5,0.498
+glaucoma,eye,secondary,strong fraction |q|>=0.90,2,1–6,0.422
+glaucoma,eye,secondary,strong fraction |q|>=0.95,2,1–5,0.296
+glaucoma,eye,secondary,strong fraction |q|>=0.99,1,1–6,0.608
+IOP,eye,secondary,"raw, pooled (original pipeline)",1,1–6,0.794
+IOP,eye,secondary,"calibrated DNase, mean |q|",3,1–11,0.362
+IOP,eye,secondary,strong fraction |q|>=0.90,1,1–5,0.71
+IOP,eye,secondary,strong fraction |q|>=0.95,1,1–5,0.81
+IOP,eye,secondary,strong fraction |q|>=0.99,1,1–10,0.52
+myopia,eye,secondary,"raw, pooled (original pipeline)",1,1–6,0.858
+myopia,eye,secondary,"calibrated DNase, mean |q|",4,1–10,0.252
+myopia,eye,secondary,strong fraction |q|>=0.90,1,1–5,0.524
+myopia,eye,secondary,strong fraction |q|>=0.95,1,1–4,0.614
+myopia,eye,secondary,strong fraction |q|>=0.99,3,1–11,0.192

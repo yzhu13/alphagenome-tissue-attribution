@@ -1,0 +1,17 @@
+Legally Binding Terms of Use
+
+By using this information, you agree to AlphaGenome Output Terms of Use found at
+http://deepmind.google.com/science/alphagenome/output-terms
+
+This repository and the associated Zenodo record contain output of the AlphaGenome API (Google
+DeepMind) and material derived from it: per-track variant scores, null-calibrated percentiles, and
+tissue- and domain-level summaries, tables and figures. Modifications made by us: calibration of each
+track's scores against null variants, and aggregation of per-track scores to tissues and disease
+domains (see the paper's Methods and scripts/). Use restrictions of the AlphaGenome Output Terms of Use
+apply to all of this material, including that it must not be used in connection with commercial
+activities or to train machine-learning models, except as those Terms allow.
+
+Files NOT derived from AlphaGenome: scripts/ and tool/ (code, MIT licence); data/enformer/ and
+figures_v2/SuppFig6_enformer.* (Enformer); the variant lists in data/ (variants.csv, null_variants.csv,
+null_matched_variants.csv, immune_variants.csv) and the GWAS loci in data/inputs/gwas_loci/ and
+data/inputs/resolved_loci/.

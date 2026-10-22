@@ -1,0 +1,9 @@
+method,n_loci,n_tissues,top tissue,immune rank,eye rank,P_boot(immune #1),P_boot(eye #1),null: top tissue,null: eye rank
+"a. raw pooled (original scorers, original pipeline)",1154,12,eye,2,1.0,0.054,0.946,eye,1.0
+"b. calibrated pooled (recommended, null pct)",1154,12,immune,1,12.0,1.0,0.0,reproductive,12.0
+"b'. calibrated pooled (original scorers, null pct)",1154,12,immune,1,11.0,1.0,0.0,eye,1.0
+c. DNase |q| (AlphaGenome quantile),1154,12,immune,1,9.0,0.833,0.002,pancreas_islet,3.0
+c. DNase null pct,1154,12,immune,1,9.0,0.743,0.0,pancreas_islet,11.0
+c'. ATAC null pct,1154,11,immune,1,,1.0,0.0,brain,
+c'. RNA null pct,1154,11,immune,1,,1.0,0.0,immune,
+"raw DNase only (original scorer, uncalibrated)",1154,12,immune,1,2.0,0.966,0.034,eye,1.0

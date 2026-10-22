@@ -1,0 +1,7 @@
+trait,catalog_id,finucane_phenotype,sig_assoc,sig_rsids,resolved_snvs,clumped_leads,in_final_set,final_best_trait
+CD,MONDO_0005011,Crohn's disease,991,744,723,257,257,204
+UC,MONDO_0005101,Ulcerative colitis,760,568,549,248,248,190
+RA,MONDO_0008383,Rheumatoid Arthritis,2660,1939,1905,234,234,219
+MS,MONDO_0005301,Multiple sclerosis,545,461,458,186,186,181
+SLE,MONDO_0007915,Lupus,1048,837,794,245,245,228
+T1D,MONDO_0005147,Type 1 Diabetes,542,409,402,157,157,132

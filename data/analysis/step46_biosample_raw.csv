@@ -1,0 +1,5 @@
+loci,biosamples,"Spearman(score, chromatin share)","chromatin share, top 20","chromatin share, all",iris pigment epithelium (top %),retinal pigment epithelium (top %),non-pigmented ciliary epithelium (top %),retina (embryonic) (top %),choroid plexus (misfiled) (top %)
+eye,231,0.5561583964210526,0.725,0.39900020614306325,8.7,1.7,10.4,21.6,4.3
+kidney,231,0.8074393390950678,0.9092857142857144,0.39900020614306325,6.1,3.5,13.0,44.6,1.7
+metabolic,231,0.8634092555049346,1.0,0.39900020614306325,6.9,4.8,8.2,32.0,2.2
+null,231,0.9196509283135877,1.0,0.39900020614306325,6.1,0.9,4.8,13.4,4.3

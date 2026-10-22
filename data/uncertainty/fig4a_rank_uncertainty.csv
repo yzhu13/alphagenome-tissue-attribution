@@ -1,0 +1,13 @@
+domain,method,eye rank,eye 95% interval,P(eye #1),top tissue,P(top #1)
+eye,"raw, pooled (original pipeline)",1,1–1,0.998,eye,0.998
+eye,"calibrated, pooled (null pct)",12,8–12,0.0,heart_vascular,0.312
+eye,"calibrated DNase, mean |q|",2,1–6,0.482,skin,0.39
+eye,"calibrated DNase, strong fraction (|q|>=0.95)",1,1–3,0.764,eye,0.764
+kidney,"raw, pooled (original pipeline)",1,1–2,0.534,eye,0.534
+kidney,"calibrated, pooled (null pct)",12,12–12,0.0,heart_vascular,0.2
+kidney,"calibrated DNase, mean |q|",5,1–11,0.11,kidney,0.362
+kidney,"calibrated DNase, strong fraction (|q|>=0.95)",3,1–9,0.05,kidney,0.682
+metabolic,"raw, pooled (original pipeline)",1,1–1,0.996,eye,0.996
+metabolic,"calibrated, pooled (null pct)",12,12–12,0.0,heart_vascular,0.33
+metabolic,"calibrated DNase, mean |q|",3,1–11,0.346,skin,0.3
+metabolic,"calibrated DNase, strong fraction (|q|>=0.95)",1,1–8,0.356,eye,0.356

@@ -1,0 +1,19 @@
+calibration,metric,loci,eye rank,eye P(#1),eye 95% rank,top,top P(#1),expected (kidney) rank
+AlphaGenome |q| (common-variant background),mean,eye,2,0.418,1-6,skin,0.43,
+AlphaGenome |q| (common-variant background),mean,kidney,5,0.15,1-11,kidney,0.358,1.0
+AlphaGenome |q| (common-variant background),mean,metabolic,3,0.354,1-11,skin,0.294,
+AlphaGenome |q| (common-variant background),strong fraction,eye,1,0.788,1-3,eye,0.788,
+AlphaGenome |q| (common-variant background),strong fraction,kidney,3,0.078,1-10,kidney,0.706,1.0
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,1,0.342,1-8,eye,0.342,
+"null pct, random null",mean,eye,2,0.372,1-7,skin,0.376,
+"null pct, random null",mean,kidney,6,0.076,1-11,kidney,0.412,1.0
+"null pct, random null",mean,metabolic,4,0.214,1-11,kidney,0.286,
+"null pct, random null",strong fraction,eye,1,0.762,1-3,eye,0.762,
+"null pct, random null",strong fraction,kidney,2,0.096,1-8,kidney,0.696,1.0
+"null pct, random null",strong fraction,metabolic,1,0.37,1-7,eye,0.37,
+"null pct, matched null",mean,eye,1,0.654,1-3,eye,0.654,
+"null pct, matched null",mean,kidney,3,0.276,1-11,skin,0.304,2.0
+"null pct, matched null",mean,metabolic,1,0.674,1-5,eye,0.674,
+"null pct, matched null",strong fraction,eye,2,0.476,1-6,skin,0.406,
+"null pct, matched null",strong fraction,kidney,5,0.014,2-11,kidney,0.778,1.0
+"null pct, matched null",strong fraction,metabolic,5,0.1,1-12,skin,0.47,

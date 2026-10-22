@@ -1,0 +1,181 @@
+domain,method,tissue,score,rank
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",eye,0.006092001085238239,1
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",skin,0.0032656046597364665,2
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",kidney,0.0028256737752505347,3
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",brain,0.0027258157691343325,4
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",muscle_adipose,0.002353375408804119,5
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",reproductive,0.002292447322923979,6
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",gut,0.0022303993640859564,7
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",liver,0.0021934195563878484,8
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",heart_vascular,0.0021334939121822006,9
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",immune,0.0020861544342592802,10
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",lung,0.0020406636065701655,11
+eye,"raw pooled (orig scorers, |raw|, original pipeline)",pancreas_islet,0.0018066455118490577,12
+eye,"calibrated pooled, matched null (rec scorers)",eye,0.5493192984321491,1
+eye,"calibrated pooled, matched null (rec scorers)",skin,0.5415945650199581,2
+eye,"calibrated pooled, matched null (rec scorers)",muscle_adipose,0.5364403319671969,3
+eye,"calibrated pooled, matched null (rec scorers)",heart_vascular,0.5338572440365057,4
+eye,"calibrated pooled, matched null (rec scorers)",kidney,0.5322152257027611,5
+eye,"calibrated pooled, matched null (rec scorers)",gut,0.5300197937061657,6
+eye,"calibrated pooled, matched null (rec scorers)",brain,0.5287472961369728,7
+eye,"calibrated pooled, matched null (rec scorers)",lung,0.528346299511817,8
+eye,"calibrated pooled, matched null (rec scorers)",reproductive,0.5252035206235708,9
+eye,"calibrated pooled, matched null (rec scorers)",liver,0.524610969660876,10
+eye,"calibrated pooled, matched null (rec scorers)",pancreas_islet,0.5235477520269057,11
+eye,"calibrated pooled, matched null (rec scorers)",immune,0.5180980767308295,12
+eye,"calibrated DNase only, matched null",eye,0.5493192984321491,1
+eye,"calibrated DNase only, matched null",skin,0.5450470266654263,2
+eye,"calibrated DNase only, matched null",kidney,0.5362206480213949,3
+eye,"calibrated DNase only, matched null",muscle_adipose,0.5331923163823324,4
+eye,"calibrated DNase only, matched null",brain,0.5289045114741443,5
+eye,"calibrated DNase only, matched null",heart_vascular,0.5216736475270165,6
+eye,"calibrated DNase only, matched null",reproductive,0.5176944996989918,7
+eye,"calibrated DNase only, matched null",lung,0.5172959778135149,8
+eye,"calibrated DNase only, matched null",gut,0.5158800831107154,9
+eye,"calibrated DNase only, matched null",liver,0.5139690018296762,10
+eye,"calibrated DNase only, matched null",immune,0.5051012081179145,11
+eye,"calibrated DNase only, matched null",pancreas_islet,0.5043892292765912,12
+eye,"calibrated pooled, random null (rec scorers)",heart_vascular,0.5921834456969094,1
+eye,"calibrated pooled, random null (rec scorers)",muscle_adipose,0.5903616845705391,2
+eye,"calibrated pooled, random null (rec scorers)",skin,0.58875701634304,3
+eye,"calibrated pooled, random null (rec scorers)",gut,0.5860516744206977,4
+eye,"calibrated pooled, random null (rec scorers)",reproductive,0.5845431283982073,5
+eye,"calibrated pooled, random null (rec scorers)",kidney,0.5781613054399688,6
+eye,"calibrated pooled, random null (rec scorers)",brain,0.5781251717731385,7
+eye,"calibrated pooled, random null (rec scorers)",lung,0.5780708317404127,8
+eye,"calibrated pooled, random null (rec scorers)",pancreas_islet,0.575129012789331,9
+eye,"calibrated pooled, random null (rec scorers)",liver,0.5686577923257393,10
+eye,"calibrated pooled, random null (rec scorers)",immune,0.5676567027420487,11
+eye,"calibrated pooled, random null (rec scorers)",eye,0.5524713919272737,12
+eye,"calibrated DNase only, random null",skin,0.554511503036908,1
+eye,"calibrated DNase only, random null",eye,0.5524713919272737,2
+eye,"calibrated DNase only, random null",kidney,0.5488183156641843,3
+eye,"calibrated DNase only, random null",muscle_adipose,0.5477966697780363,4
+eye,"calibrated DNase only, random null",brain,0.5349047476235301,5
+eye,"calibrated DNase only, random null",heart_vascular,0.5337566315712096,6
+eye,"calibrated DNase only, random null",lung,0.5306255897715342,7
+eye,"calibrated DNase only, random null",gut,0.5257569873005605,8
+eye,"calibrated DNase only, random null",reproductive,0.5240021324071243,9
+eye,"calibrated DNase only, random null",liver,0.5193865933024104,10
+eye,"calibrated DNase only, random null",immune,0.5079103148549329,11
+eye,"calibrated DNase only, random null",pancreas_islet,0.5074970206846445,12
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",eye,0.006178970125333394,1
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",liver,0.0059570976839124785,2
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",immune,0.0031204660642874795,3
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",kidney,0.00311487350882039,4
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",skin,0.0029360157596361766,5
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",gut,0.00243783427609076,6
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",muscle_adipose,0.0022322367516518313,7
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",pancreas_islet,0.0022209364983994833,8
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",lung,0.002185413955081922,9
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",heart_vascular,0.0019403124339536593,10
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",brain,0.0018739579252237935,11
+kidney,"raw pooled (orig scorers, |raw|, original pipeline)",reproductive,0.0018465021686297695,12
+kidney,"calibrated pooled, matched null (rec scorers)",gut,0.5850326385451914,1
+kidney,"calibrated pooled, matched null (rec scorers)",heart_vascular,0.5849776338579352,2
+kidney,"calibrated pooled, matched null (rec scorers)",muscle_adipose,0.5824333099245556,3
+kidney,"calibrated pooled, matched null (rec scorers)",reproductive,0.5804321454963881,4
+kidney,"calibrated pooled, matched null (rec scorers)",lung,0.5799888561867959,5
+kidney,"calibrated pooled, matched null (rec scorers)",liver,0.577691464321264,6
+kidney,"calibrated pooled, matched null (rec scorers)",skin,0.5776591229385925,7
+kidney,"calibrated pooled, matched null (rec scorers)",pancreas_islet,0.5767427146643709,8
+kidney,"calibrated pooled, matched null (rec scorers)",kidney,0.5751651317751626,9
+kidney,"calibrated pooled, matched null (rec scorers)",brain,0.5662595462876223,10
+kidney,"calibrated pooled, matched null (rec scorers)",immune,0.564958719395285,11
+kidney,"calibrated pooled, matched null (rec scorers)",eye,0.5362763762633547,12
+kidney,"calibrated DNase only, matched null",skin,0.5398080003076831,1
+kidney,"calibrated DNase only, matched null",kidney,0.5392584290035192,2
+kidney,"calibrated DNase only, matched null",eye,0.5362763762633547,3
+kidney,"calibrated DNase only, matched null",lung,0.5319229363947793,4
+kidney,"calibrated DNase only, matched null",muscle_adipose,0.5310321349122374,5
+kidney,"calibrated DNase only, matched null",gut,0.5300514422793695,6
+kidney,"calibrated DNase only, matched null",liver,0.5271214331435039,7
+kidney,"calibrated DNase only, matched null",heart_vascular,0.5267568735458442,8
+kidney,"calibrated DNase only, matched null",reproductive,0.5244960546064085,9
+kidney,"calibrated DNase only, matched null",brain,0.5208355504784674,10
+kidney,"calibrated DNase only, matched null",immune,0.5138356807898662,11
+kidney,"calibrated DNase only, matched null",pancreas_islet,0.5081474186219648,12
+kidney,"calibrated pooled, random null (rec scorers)",heart_vascular,0.6380832017379312,1
+kidney,"calibrated pooled, random null (rec scorers)",gut,0.6358771835842439,2
+kidney,"calibrated pooled, random null (rec scorers)",reproductive,0.6349173121534397,3
+kidney,"calibrated pooled, random null (rec scorers)",muscle_adipose,0.6315559578954308,4
+kidney,"calibrated pooled, random null (rec scorers)",lung,0.6249254426215627,5
+kidney,"calibrated pooled, random null (rec scorers)",pancreas_islet,0.6232248264686844,6
+kidney,"calibrated pooled, random null (rec scorers)",skin,0.6210468914400938,7
+kidney,"calibrated pooled, random null (rec scorers)",liver,0.6168710757170996,8
+kidney,"calibrated pooled, random null (rec scorers)",kidney,0.616551721501966,9
+kidney,"calibrated pooled, random null (rec scorers)",brain,0.6123210867559253,10
+kidney,"calibrated pooled, random null (rec scorers)",immune,0.6099681491549128,11
+kidney,"calibrated pooled, random null (rec scorers)",eye,0.5393676290002225,12
+kidney,"calibrated DNase only, random null",kidney,0.5516216085045049,1
+kidney,"calibrated DNase only, random null",skin,0.5495295471840137,2
+kidney,"calibrated DNase only, random null",muscle_adipose,0.5457687986183004,3
+kidney,"calibrated DNase only, random null",lung,0.5451131971286582,4
+kidney,"calibrated DNase only, random null",gut,0.5400563291890752,5
+kidney,"calibrated DNase only, random null",eye,0.5393676290002225,6
+kidney,"calibrated DNase only, random null",heart_vascular,0.5390119977041801,7
+kidney,"calibrated DNase only, random null",liver,0.532789187689383,8
+kidney,"calibrated DNase only, random null",reproductive,0.5310703370075203,9
+kidney,"calibrated DNase only, random null",brain,0.5270263571824693,10
+kidney,"calibrated DNase only, random null",immune,0.5168564686232009,11
+kidney,"calibrated DNase only, random null",pancreas_islet,0.5113533656949928,12
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",eye,0.005922874489379855,1
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",skin,0.0028658801375063244,2
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",liver,0.0022845214944466983,3
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",kidney,0.002169881548677252,4
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",immune,0.0020423200194897963,5
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",muscle_adipose,0.0018493703767673156,6
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",gut,0.0017314049516725285,7
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",lung,0.001715733656877851,8
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",brain,0.0016520198750780218,9
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",heart_vascular,0.0016110283559593432,10
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",pancreas_islet,0.0015915516050531153,11
+metabolic,"raw pooled (orig scorers, |raw|, original pipeline)",reproductive,0.0014491702382950112,12
+metabolic,"calibrated pooled, matched null (rec scorers)",heart_vascular,0.532787865232722,1
+metabolic,"calibrated pooled, matched null (rec scorers)",muscle_adipose,0.532466410919343,2
+metabolic,"calibrated pooled, matched null (rec scorers)",eye,0.5324192146065788,3
+metabolic,"calibrated pooled, matched null (rec scorers)",skin,0.5319124039994204,4
+metabolic,"calibrated pooled, matched null (rec scorers)",gut,0.5296237006078448,5
+metabolic,"calibrated pooled, matched null (rec scorers)",lung,0.52887163269887,6
+metabolic,"calibrated pooled, matched null (rec scorers)",liver,0.528524368449017,7
+metabolic,"calibrated pooled, matched null (rec scorers)",pancreas_islet,0.5276377633862056,8
+metabolic,"calibrated pooled, matched null (rec scorers)",kidney,0.5267639850557261,9
+metabolic,"calibrated pooled, matched null (rec scorers)",reproductive,0.5243817252158072,10
+metabolic,"calibrated pooled, matched null (rec scorers)",brain,0.5225487449483972,11
+metabolic,"calibrated pooled, matched null (rec scorers)",immune,0.5220933604105545,12
+metabolic,"calibrated DNase only, matched null",eye,0.5324192146065788,1
+metabolic,"calibrated DNase only, matched null",skin,0.5291429261459691,2
+metabolic,"calibrated DNase only, matched null",kidney,0.5264434300986974,3
+metabolic,"calibrated DNase only, matched null",muscle_adipose,0.5229975588822132,4
+metabolic,"calibrated DNase only, matched null",gut,0.5214615165810644,5
+metabolic,"calibrated DNase only, matched null",heart_vascular,0.5209469015941508,6
+metabolic,"calibrated DNase only, matched null",lung,0.5204325943100033,7
+metabolic,"calibrated DNase only, matched null",reproductive,0.518905150622293,8
+metabolic,"calibrated DNase only, matched null",brain,0.5184785653832988,9
+metabolic,"calibrated DNase only, matched null",liver,0.5162887021204656,10
+metabolic,"calibrated DNase only, matched null",pancreas_islet,0.5145515142732937,11
+metabolic,"calibrated DNase only, matched null",immune,0.512960324590639,12
+metabolic,"calibrated pooled, random null (rec scorers)",heart_vascular,0.5901643114104446,1
+metabolic,"calibrated pooled, random null (rec scorers)",muscle_adipose,0.585550123678999,2
+metabolic,"calibrated pooled, random null (rec scorers)",gut,0.5849858271239612,3
+metabolic,"calibrated pooled, random null (rec scorers)",reproductive,0.5832989007804251,4
+metabolic,"calibrated pooled, random null (rec scorers)",skin,0.5786281939815485,5
+metabolic,"calibrated pooled, random null (rec scorers)",pancreas_islet,0.5785307220432565,6
+metabolic,"calibrated pooled, random null (rec scorers)",lung,0.5778049217078514,7
+metabolic,"calibrated pooled, random null (rec scorers)",brain,0.5720038248169437,8
+metabolic,"calibrated pooled, random null (rec scorers)",kidney,0.5718920383309287,9
+metabolic,"calibrated pooled, random null (rec scorers)",liver,0.5718789317398214,10
+metabolic,"calibrated pooled, random null (rec scorers)",immune,0.5705463116386549,11
+metabolic,"calibrated pooled, random null (rec scorers)",eye,0.5354079118968266,12
+metabolic,"calibrated DNase only, random null",kidney,0.5388927530631632,1
+metabolic,"calibrated DNase only, random null",skin,0.538673911993431,2
+metabolic,"calibrated DNase only, random null",muscle_adipose,0.5376074073248396,3
+metabolic,"calibrated DNase only, random null",eye,0.5354079118968266,4
+metabolic,"calibrated DNase only, random null",lung,0.5336052745978844,5
+metabolic,"calibrated DNase only, random null",heart_vascular,0.5328646590850136,6
+metabolic,"calibrated DNase only, random null",gut,0.5312728697397586,7
+metabolic,"calibrated DNase only, random null",reproductive,0.5252884445088474,8
+metabolic,"calibrated DNase only, random null",brain,0.5243923060930048,9
+metabolic,"calibrated DNase only, random null",liver,0.5217489011254407,10
+metabolic,"calibrated DNase only, random null",pancreas_islet,0.5174252523788824,11
+metabolic,"calibrated DNase only, random null",immune,0.5157266096700961,12

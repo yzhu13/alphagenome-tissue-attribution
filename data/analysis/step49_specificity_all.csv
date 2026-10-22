@@ -1,0 +1,217 @@
+calibration,metric,loci,tissue,n_tracks,specificity,CI lo,CI hi,rank,P(#1)
+AlphaGenome |q| (common-variant background),mean,eye,brain,23,0.009112537,-0.0041068373,0.021982023,3,0.102
+AlphaGenome |q| (common-variant background),mean,eye,eye,4,0.014831483,-0.0037591339,0.030163031,1,0.65
+AlphaGenome |q| (common-variant background),mean,eye,gut,9,-0.0098513365,-0.025305271,0.0038194521,12,0.0
+AlphaGenome |q| (common-variant background),mean,eye,heart_vascular,27,-0.0021879077,-0.015944738,0.011230902,6,0.0
+AlphaGenome |q| (common-variant background),mean,eye,immune,25,-0.008280635,-0.021412378,0.004629683,10,0.0
+AlphaGenome |q| (common-variant background),mean,eye,kidney,12,0.0034204721,-0.011058778,0.018173924,5,0.014
+AlphaGenome |q| (common-variant background),mean,eye,liver,8,-0.0077589154,-0.023077775,0.0072855945,9,0.0
+AlphaGenome |q| (common-variant background),mean,eye,lung,10,-0.008749127,-0.025960665,0.006185029,11,0.0
+AlphaGenome |q| (common-variant background),mean,eye,muscle_adipose,13,0.0059973598,-0.008459784,0.020289918,4,0.04
+AlphaGenome |q| (common-variant background),mean,eye,pancreas_islet,4,-0.0069295764,-0.028078796,0.011146276,8,0.01
+AlphaGenome |q| (common-variant background),mean,eye,reproductive,9,-0.004109502,-0.020290965,0.010072382,7,0.0
+AlphaGenome |q| (common-variant background),mean,eye,skin,20,0.010259271,-0.0057319836,0.02500619,2,0.184
+AlphaGenome |q| (common-variant background),mean,kidney,brain,23,-0.00267452,-0.015138519,0.009112723,11,0.0
+AlphaGenome |q| (common-variant background),mean,kidney,eye,4,-0.004607439,-0.02115593,0.010990243,12,0.0
+AlphaGenome |q| (common-variant background),mean,kidney,gut,9,0.011510253,-0.0023241893,0.024689784,3,0.18
+AlphaGenome |q| (common-variant background),mean,kidney,heart_vascular,27,0.0055938363,-0.007852252,0.018437859,6,0.006
+AlphaGenome |q| (common-variant background),mean,kidney,immune,25,0.0049592257,-0.0076323478,0.017847603,7,0.032
+AlphaGenome |q| (common-variant background),mean,kidney,kidney,12,0.0077217817,-0.005625361,0.021450164,4,0.058
+AlphaGenome |q| (common-variant background),mean,kidney,liver,8,0.011981189,-0.0034124374,0.02991253,2,0.32
+AlphaGenome |q| (common-variant background),mean,kidney,lung,10,0.012877107,5.7605037e-05,0.026907586,1,0.34
+AlphaGenome |q| (common-variant background),mean,kidney,muscle_adipose,13,0.0030026436,-0.009850756,0.015634578,8,0.004
+AlphaGenome |q| (common-variant background),mean,kidney,pancreas_islet,4,-0.0010473132,-0.019354386,0.019207316,10,0.024
+AlphaGenome |q| (common-variant background),mean,kidney,reproductive,9,0.0063863397,-0.007596421,0.020373529,5,0.032
+AlphaGenome |q| (common-variant background),mean,kidney,skin,20,0.002952814,-0.0106180115,0.016016023,9,0.004
+AlphaGenome |q| (common-variant background),mean,metabolic,brain,23,-0.006438017,-0.01644611,0.0032415555,8,0.0
+AlphaGenome |q| (common-variant background),mean,metabolic,eye,4,-0.010223985,-0.022495452,0.0031511218,10,0.008
+AlphaGenome |q| (common-variant background),mean,metabolic,gut,9,-0.0016589165,-0.011781998,0.00988185,3,0.008
+AlphaGenome |q| (common-variant background),mean,metabolic,heart_vascular,27,-0.003405869,-0.012624344,0.007466933,5,0.006
+AlphaGenome |q| (common-variant background),mean,metabolic,immune,25,0.0033214092,-0.006512718,0.014275687,2,0.192
+AlphaGenome |q| (common-variant background),mean,metabolic,kidney,12,-0.011142254,-0.020647688,2.712608e-06,11,0.0
+AlphaGenome |q| (common-variant background),mean,metabolic,liver,8,-0.0042223334,-0.0140280705,0.007861854,7,0.01
+AlphaGenome |q| (common-variant background),mean,metabolic,lung,10,-0.0041279793,-0.013325816,0.0057149664,6,0.002
+AlphaGenome |q| (common-variant background),mean,metabolic,muscle_adipose,13,-0.009000003,-0.020134205,0.0018037163,9,0.0
+AlphaGenome |q| (common-variant background),mean,metabolic,pancreas_islet,4,0.00797689,-0.004954125,0.020385792,1,0.756
+AlphaGenome |q| (common-variant background),mean,metabolic,reproductive,9,-0.0022768378,-0.013978062,0.010546719,4,0.018
+AlphaGenome |q| (common-variant background),mean,metabolic,skin,20,-0.013212085,-0.023479316,-0.0025925038,12,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,brain,23,0.008970715,-0.0030224437,0.02194377,4,0.006
+AlphaGenome |q| (common-variant background),strong fraction,eye,eye,4,0.02121634,0.00407604,0.039801408,1,0.756
+AlphaGenome |q| (common-variant background),strong fraction,eye,gut,9,-0.014287531,-0.02684399,-0.0017253337,12,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,heart_vascular,27,-0.002732426,-0.014588269,0.008395361,6,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,immune,25,-0.012803622,-0.02313196,-0.0016643739,10,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,kidney,12,-0.0022099838,-0.016397538,0.012590381,5,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,liver,8,-0.013629615,-0.027757429,0.0018316593,11,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,lung,10,-0.0074139982,-0.01960221,0.0064739054,8,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,muscle_adipose,13,0.013409123,0.000436972,0.02984181,3,0.138
+AlphaGenome |q| (common-variant background),strong fraction,eye,pancreas_islet,4,-0.011315111,-0.02460396,0.0018462421,9,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,reproductive,9,-0.0033977777,-0.0167945,0.010583304,7,0.0
+AlphaGenome |q| (common-variant background),strong fraction,eye,skin,20,0.01516895,-0.00031182708,0.030959561,2,0.1
+AlphaGenome |q| (common-variant background),strong fraction,kidney,brain,23,-0.0010845363,-0.01204804,0.010278376,9,0.0
+AlphaGenome |q| (common-variant background),strong fraction,kidney,eye,4,-0.005263455,-0.019232156,0.009111028,12,0.0
+AlphaGenome |q| (common-variant background),strong fraction,kidney,gut,9,0.0141412765,0.0026928098,0.025864717,3,0.074
+AlphaGenome |q| (common-variant background),strong fraction,kidney,heart_vascular,27,0.0053400397,-0.005327302,0.015801046,7,0.0
+AlphaGenome |q| (common-variant background),strong fraction,kidney,immune,25,0.015553836,0.0053087906,0.025240079,2,0.172
+AlphaGenome |q| (common-variant background),strong fraction,kidney,kidney,12,0.013854861,0.0011657702,0.027064191,4,0.118
+AlphaGenome |q| (common-variant background),strong fraction,kidney,liver,8,0.019694224,0.005955522,0.034654308,1,0.606
+AlphaGenome |q| (common-variant background),strong fraction,kidney,lung,10,0.010920815,-0.00027307446,0.022052154,5,0.018
+AlphaGenome |q| (common-variant background),strong fraction,kidney,muscle_adipose,13,-0.00363373,-0.01544316,0.007526497,10,0.0
+AlphaGenome |q| (common-variant background),strong fraction,kidney,pancreas_islet,4,0.008996535,-0.0026343039,0.020571657,6,0.012
+AlphaGenome |q| (common-variant background),strong fraction,kidney,reproductive,9,0.0049782917,-0.0058163083,0.016295731,8,0.0
+AlphaGenome |q| (common-variant background),strong fraction,kidney,skin,20,-0.00445538,-0.017743312,0.00793104,11,0.0
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,brain,23,-0.007886179,-0.017849432,0.0017562025,8,0.002
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,eye,4,-0.015952893,-0.029180551,-0.0036872446,12,0.0
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,gut,9,0.0001462549,-0.010159759,0.011189537,2,0.236
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,heart_vascular,27,-0.0026076138,-0.011343711,0.0063077575,4,0.036
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,immune,25,-0.002750218,-0.010935036,0.0057668034,5,0.048
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,kidney,12,-0.0116448775,-0.022873754,-0.0016834957,11,0.0
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,liver,8,-0.0060646087,-0.018442351,0.0050235195,7,0.01
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,lung,10,-0.0035068244,-0.013333651,0.0059781047,6,0.036
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,muscle_adipose,13,-0.0097754,-0.021582766,0.0013372644,9,0.002
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,pancreas_islet,4,0.0023185797,-0.0064474572,0.0111169405,1,0.514
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,reproductive,9,-0.001580514,-0.012019622,0.008922856,3,0.116
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,skin,20,-0.010713562,-0.02230665,4.9994087e-05,10,0.0
+"null pct, random null",mean,eye,brain,23,0.009195507,-0.0039798347,0.022361033,3,0.086
+"null pct, random null",mean,eye,eye,4,0.015084147,-0.0012710717,0.030886138,1,0.706
+"null pct, random null",mean,eye,gut,9,-0.0099077225,-0.02318922,0.004624339,12,0.0
+"null pct, random null",mean,eye,heart_vascular,27,-0.0021820068,-0.0139990095,0.0115680685,6,0.0
+"null pct, random null",mean,eye,immune,25,-0.00838089,-0.021496367,0.004553799,10,0.0
+"null pct, random null",mean,eye,kidney,12,0.0035617948,-0.010826835,0.018855508,5,0.014
+"null pct, random null",mean,eye,liver,8,-0.007881999,-0.023037996,0.007017249,9,0.0
+"null pct, random null",mean,eye,lung,10,-0.008734286,-0.025042607,0.007331277,11,0.0
+"null pct, random null",mean,eye,muscle_adipose,13,0.006108403,-0.008036964,0.022451881,4,0.038
+"null pct, random null",mean,eye,pancreas_islet,4,-0.0068923235,-0.025698554,0.010510878,8,0.008
+"null pct, random null",mean,eye,reproductive,9,-0.0041772723,-0.017066035,0.009285385,7,0.004
+"null pct, random null",mean,eye,skin,20,0.010410309,-0.0038442325,0.025178848,2,0.144
+"null pct, random null",mean,kidney,brain,23,-0.0026225448,-0.014363721,0.009353347,11,0.0
+"null pct, random null",mean,kidney,eye,4,-0.0045719147,-0.019702839,0.0117136985,12,0.0
+"null pct, random null",mean,kidney,gut,9,0.011541009,-0.001369232,0.024308404,3,0.184
+"null pct, random null",mean,kidney,heart_vascular,27,0.0057008862,-0.005747348,0.018356096,6,0.0
+"null pct, random null",mean,kidney,immune,25,0.005037725,-0.008627186,0.017737208,7,0.012
+"null pct, random null",mean,kidney,kidney,12,0.007765949,-0.005732348,0.02072914,4,0.056
+"null pct, random null",mean,kidney,liver,8,0.0122208,-0.002762097,0.027217222,2,0.304
+"null pct, random null",mean,kidney,lung,10,0.012996912,-0.0003529205,0.026931513,1,0.374
+"null pct, random null",mean,kidney,muscle_adipose,13,0.0030661821,-0.011508961,0.016702633,8,0.008
+"null pct, random null",mean,kidney,pancreas_islet,4,-0.0011082888,-0.019055652,0.01690226,10,0.024
+"null pct, random null",mean,kidney,reproductive,9,0.006424308,-0.0072280183,0.019954681,5,0.032
+"null pct, random null",mean,kidney,skin,20,0.002937138,-0.010591781,0.015617489,9,0.006
+"null pct, random null",mean,metabolic,brain,23,-0.006572962,-0.016497798,0.0025268188,8,0.002
+"null pct, random null",mean,metabolic,eye,4,-0.010512233,-0.024320442,0.0034711165,10,0.002
+"null pct, random null",mean,metabolic,gut,9,-0.0016332865,-0.011964169,0.0095852325,3,0.004
+"null pct, random null",mean,metabolic,heart_vascular,27,-0.0035188794,-0.014011191,0.0057571456,5,0.002
+"null pct, random null",mean,metabolic,immune,25,0.0033432245,-0.006510854,0.015149174,2,0.242
+"null pct, random null",mean,metabolic,kidney,12,-0.011327803,-0.022616997,-0.0006533963,11,0.0
+"null pct, random null",mean,metabolic,liver,8,-0.004338801,-0.016408069,0.0067331875,7,0.002
+"null pct, random null",mean,metabolic,lung,10,-0.0042625666,-0.014244731,0.0049089417,6,0.01
+"null pct, random null",mean,metabolic,muscle_adipose,13,-0.009174585,-0.021915304,0.0019210988,9,0.0
+"null pct, random null",mean,metabolic,pancreas_islet,4,0.008000612,-0.0063484474,0.020382078,1,0.722
+"null pct, random null",mean,metabolic,reproductive,9,-0.002247095,-0.014430903,0.010447115,4,0.014
+"null pct, random null",mean,metabolic,skin,20,-0.013347447,-0.02354051,-0.0030711456,12,0.0
+"null pct, random null",strong fraction,eye,brain,23,0.009174533,-0.0027398558,0.020596681,4,0.012
+"null pct, random null",strong fraction,eye,eye,4,0.020026274,0.003008275,0.03922871,1,0.704
+"null pct, random null",strong fraction,eye,gut,9,-0.012733642,-0.024630385,7.1305665e-05,10,0.0
+"null pct, random null",strong fraction,eye,heart_vascular,27,-0.0025112107,-0.0150565235,0.010875932,6,0.0
+"null pct, random null",strong fraction,eye,immune,25,-0.013299853,-0.024349893,-0.002247607,12,0.0
+"null pct, random null",strong fraction,eye,kidney,12,-0.0021702722,-0.016233936,0.012319209,5,0.0
+"null pct, random null",strong fraction,eye,liver,8,-0.013138674,-0.027541352,0.0022276118,11,0.0
+"null pct, random null",strong fraction,eye,lung,10,-0.0065880045,-0.019942176,0.0068147876,8,0.0
+"null pct, random null",strong fraction,eye,muscle_adipose,13,0.013033144,-0.0024155623,0.027074574,3,0.12
+"null pct, random null",strong fraction,eye,pancreas_islet,4,-0.008482151,-0.022442214,0.0050574336,9,0.0
+"null pct, random null",strong fraction,eye,reproductive,9,-0.003457956,-0.015204875,0.009912179,7,0.0
+"null pct, random null",strong fraction,eye,skin,20,0.014607735,-0.00040340668,0.030396372,2,0.164
+"null pct, random null",strong fraction,kidney,brain,23,-0.0010404512,-0.010510563,0.008484649,9,0.0
+"null pct, random null",strong fraction,kidney,eye,4,-0.004362367,-0.018010909,0.010694051,12,0.0
+"null pct, random null",strong fraction,kidney,gut,9,0.012360603,0.00058988965,0.02614622,4,0.038
+"null pct, random null",strong fraction,kidney,heart_vascular,27,0.0057896897,-0.0062899766,0.015529059,6,0.0
+"null pct, random null",strong fraction,kidney,immune,25,0.016506612,0.00612721,0.027456254,2,0.258
+"null pct, random null",strong fraction,kidney,kidney,12,0.014113359,0.0015713981,0.02683802,3,0.104
+"null pct, random null",strong fraction,kidney,liver,8,0.020305462,0.007962458,0.0343393,1,0.588
+"null pct, random null",strong fraction,kidney,lung,10,0.010664843,-0.0011048479,0.022150416,5,0.012
+"null pct, random null",strong fraction,kidney,muscle_adipose,13,-0.003183186,-0.015077386,0.008655065,10,0.0
+"null pct, random null",strong fraction,kidney,pancreas_islet,4,0.0054627582,-0.006117536,0.016850607,7,0.0
+"null pct, random null",strong fraction,kidney,reproductive,9,0.004608907,-0.007155148,0.015963897,8,0.0
+"null pct, random null",strong fraction,kidney,skin,20,-0.003947668,-0.016666275,0.007923438,11,0.0
+"null pct, random null",strong fraction,metabolic,brain,23,-0.0081340745,-0.017181657,2.7833277e-05,8,0.0
+"null pct, random null",strong fraction,metabolic,eye,4,-0.015663907,-0.029146394,-0.004451634,12,0.0
+"null pct, random null",strong fraction,metabolic,gut,9,0.00037303567,-0.009117856,0.0109927235,2,0.22
+"null pct, random null",strong fraction,metabolic,heart_vascular,27,-0.0032784715,-0.012840564,0.006349167,5,0.012
+"null pct, random null",strong fraction,metabolic,immune,25,-0.0032067597,-0.011837255,0.005302844,4,0.056
+"null pct, random null",strong fraction,metabolic,kidney,12,-0.0119430795,-0.022291204,-0.0015822254,11,0.0
+"null pct, random null",strong fraction,metabolic,liver,8,-0.0071667954,-0.018867498,0.002670572,7,0.004
+"null pct, random null",strong fraction,metabolic,lung,10,-0.004076846,-0.01454371,0.006360994,6,0.034
+"null pct, random null",strong fraction,metabolic,muscle_adipose,13,-0.009849951,-0.020643406,0.00073338416,9,0.002
+"null pct, random null",strong fraction,metabolic,pancreas_islet,4,0.0030193925,-0.004933417,0.013103612,1,0.582
+"null pct, random null",strong fraction,metabolic,reproductive,9,-0.0011509582,-0.010167,0.009268382,3,0.088
+"null pct, random null",strong fraction,metabolic,skin,20,-0.01066006,-0.021347508,-0.0013155816,10,0.002
+"null pct, matched null",mean,eye,brain,23,0.009247541,-0.0032830879,0.02182153,3,0.062
+"null pct, matched null",mean,eye,eye,4,0.014971197,-0.00042324513,0.03128988,1,0.728
+"null pct, matched null",mean,eye,gut,9,-0.009876549,-0.023580758,0.0039385036,12,0.0
+"null pct, matched null",mean,eye,heart_vascular,27,-0.0021781325,-0.015053066,0.010882726,6,0.002
+"null pct, matched null",mean,eye,immune,25,-0.008296847,-0.02235492,0.004481007,10,0.0
+"null pct, matched null",mean,eye,kidney,12,0.0033700466,-0.010130049,0.019682355,5,0.008
+"null pct, matched null",mean,eye,liver,8,-0.0077359676,-0.022415001,0.006422046,9,0.0
+"null pct, matched null",mean,eye,lung,10,-0.008881807,-0.024571389,0.005425959,11,0.0
+"null pct, matched null",mean,eye,muscle_adipose,13,0.0061771274,-0.008230189,0.020573637,4,0.034
+"null pct, matched null",mean,eye,pancreas_islet,4,-0.006960273,-0.025244813,0.011949795,8,0.008
+"null pct, matched null",mean,eye,reproductive,9,-0.0040061474,-0.018161839,0.009621252,7,0.004
+"null pct, matched null",mean,eye,skin,20,0.01057142,-0.003996077,0.025818361,2,0.154
+"null pct, matched null",mean,kidney,brain,23,-0.0028562546,-0.014885659,0.007980587,11,0.0
+"null pct, matched null",mean,kidney,eye,4,-0.004593551,-0.019889973,0.010308083,12,0.0
+"null pct, matched null",mean,kidney,gut,9,0.011379898,-0.0016925706,0.023289282,3,0.178
+"null pct, matched null",mean,kidney,heart_vascular,27,0.005446553,-0.006572917,0.016677056,6,0.0
+"null pct, matched null",mean,kidney,immune,25,0.0048047304,-0.0081445025,0.018501526,7,0.028
+"null pct, matched null",mean,kidney,kidney,12,0.007926047,-0.006443535,0.019751806,4,0.066
+"null pct, matched null",mean,kidney,liver,8,0.011992395,-0.0028769297,0.028021596,2,0.302
+"null pct, matched null",mean,kidney,lung,10,0.013058066,0.0010400921,0.026934298,1,0.37
+"null pct, matched null",mean,kidney,muscle_adipose,13,0.0029369593,-0.011091569,0.016763581,8,0.006
+"null pct, matched null",mean,kidney,pancreas_islet,4,-0.0013229847,-0.01986043,0.018065087,10,0.016
+"null pct, matched null",mean,kidney,reproductive,9,0.006195903,-0.0075237392,0.019318296,5,0.024
+"null pct, matched null",mean,kidney,skin,20,0.0027128458,-0.010314306,0.014881494,9,0.01
+"null pct, matched null",mean,metabolic,brain,23,-0.006391287,-0.015607297,0.00385077,8,0.0
+"null pct, matched null",mean,metabolic,eye,4,-0.0103776455,-0.023207884,0.0017022375,10,0.002
+"null pct, matched null",mean,metabolic,gut,9,-0.001503408,-0.012415812,0.009811138,3,0.0
+"null pct, matched null",mean,metabolic,heart_vascular,27,-0.0032684207,-0.013898293,0.0070938133,5,0.002
+"null pct, matched null",mean,metabolic,immune,25,0.003492117,-0.007219121,0.014643752,2,0.188
+"null pct, matched null",mean,metabolic,kidney,12,-0.011296093,-0.022466764,-0.00017681581,11,0.0
+"null pct, matched null",mean,metabolic,liver,8,-0.0042564273,-0.01583207,0.0067126397,7,0.004
+"null pct, matched null",mean,metabolic,lung,10,-0.004176259,-0.014399407,0.007482441,6,0.01
+"null pct, matched null",mean,metabolic,muscle_adipose,13,-0.009114087,-0.02137791,0.0016316628,9,0.004
+"null pct, matched null",mean,metabolic,pancreas_islet,4,0.008283317,-0.005367054,0.021905432,1,0.778
+"null pct, matched null",mean,metabolic,reproductive,9,-0.0021897554,-0.013707405,0.010586789,4,0.012
+"null pct, matched null",mean,metabolic,skin,20,-0.013284206,-0.024609774,-0.0019122276,12,0.0
+"null pct, matched null",strong fraction,eye,brain,23,0.008602545,-0.0037866686,0.019961111,4,0.01
+"null pct, matched null",strong fraction,eye,eye,4,0.017605148,0.0007594355,0.03505695,1,0.568
+"null pct, matched null",strong fraction,eye,gut,9,-0.013887897,-0.027224645,-0.00028795947,12,0.0
+"null pct, matched null",strong fraction,eye,heart_vascular,27,-0.0023155957,-0.014927153,0.010214653,5,0.0
+"null pct, matched null",strong fraction,eye,immune,25,-0.012507752,-0.022829918,-0.0019469911,10,0.0
+"null pct, matched null",strong fraction,eye,kidney,12,-0.00287126,-0.01656025,0.011311065,6,0.0
+"null pct, matched null",strong fraction,eye,liver,8,-0.01309222,-0.027103433,0.0008946977,11,0.0
+"null pct, matched null",strong fraction,eye,lung,10,-0.008847095,-0.021643147,0.0048135254,8,0.0
+"null pct, matched null",strong fraction,eye,muscle_adipose,13,0.013243541,-0.0015113935,0.029232737,3,0.192
+"null pct, matched null",strong fraction,eye,pancreas_islet,4,-0.00927325,-0.023823977,0.0045648916,9,0.0
+"null pct, matched null",strong fraction,eye,reproductive,9,-0.0035732314,-0.015876632,0.009151483,7,0.0
+"null pct, matched null",strong fraction,eye,skin,20,0.0152695775,-0.00046011293,0.029495897,2,0.23
+"null pct, matched null",strong fraction,kidney,brain,23,-0.0009136945,-0.0111236535,0.009529817,9,0.0
+"null pct, matched null",strong fraction,kidney,eye,4,-0.0036341622,-0.017249472,0.009032025,10,0.0
+"null pct, matched null",strong fraction,kidney,gut,9,0.012844697,0.0012630699,0.025621284,4,0.072
+"null pct, matched null",strong fraction,kidney,heart_vascular,27,0.0047533885,-0.006599659,0.016012885,7,0.0
+"null pct, matched null",strong fraction,kidney,immune,25,0.015105903,0.0035062442,0.026428109,2,0.24
+"null pct, matched null",strong fraction,kidney,kidney,12,0.014033817,0.0011642689,0.026221689,3,0.136
+"null pct, matched null",strong fraction,kidney,liver,8,0.018039778,0.0049343994,0.03268899,1,0.508
+"null pct, matched null",strong fraction,kidney,lung,10,0.011450343,-0.001419952,0.02363881,5,0.036
+"null pct, matched null",strong fraction,kidney,muscle_adipose,13,-0.0038582683,-0.016569037,0.006967386,11,0.0
+"null pct, matched null",strong fraction,kidney,pancreas_islet,4,0.00671044,-0.0066299154,0.021591678,6,0.008
+"null pct, matched null",strong fraction,kidney,reproductive,9,0.0047166124,-0.0064612865,0.01685077,8,0.0
+"null pct, matched null",strong fraction,kidney,skin,20,-0.0048847646,-0.01593754,0.0071855257,12,0.0
+"null pct, matched null",strong fraction,metabolic,brain,23,-0.00768885,-0.0151640335,0.00065853796,8,0.0
+"null pct, matched null",strong fraction,metabolic,eye,4,-0.013970993,-0.02437121,-0.0021229752,12,0.002
+"null pct, matched null",strong fraction,metabolic,gut,9,0.0010432005,-0.008584343,0.010471684,2,0.252
+"null pct, matched null",strong fraction,metabolic,heart_vascular,27,-0.0024377927,-0.011149614,0.0055501317,4,0.024
+"null pct, matched null",strong fraction,metabolic,immune,25,-0.0025981516,-0.010954332,0.0053506345,5,0.05
+"null pct, matched null",strong fraction,metabolic,kidney,12,-0.011162557,-0.020552922,-0.0011892519,11,0.0
+"null pct, matched null",strong fraction,metabolic,liver,8,-0.0049475506,-0.015395819,0.0055063525,7,0.006
+"null pct, matched null",strong fraction,metabolic,lung,10,-0.0026032478,-0.010892819,0.00696658,6,0.052
+"null pct, matched null",strong fraction,metabolic,muscle_adipose,13,-0.009385273,-0.01983771,0.00095699745,9,0.004
+"null pct, matched null",strong fraction,metabolic,pancreas_islet,4,0.0025628097,-0.0062272013,0.010840103,1,0.498
+"null pct, matched null",strong fraction,metabolic,reproductive,9,-0.0011433735,-0.011214548,0.009065537,3,0.11
+"null pct, matched null",strong fraction,metabolic,skin,20,-0.010384813,-0.020624932,0.0007531886,10,0.002

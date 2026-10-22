@@ -1,0 +1,16 @@
+domain,trait,keywords used,keywords that never matched (contain capitals)
+Eye,glaucoma,glaucoma; open-angle; intraocular pressure,
+Eye,AMD,macular degeneration; age-related macular,
+Eye,myopia,myopia; refractive error; spherical equivalent; high myopia,
+Eye,IOP,intraocular pressure; ocular pressure,
+Eye,cataract,cataract; lens opacity; nuclear sclerosis,
+Eye,diabetic_retinopathy,diabetic retinopathy; retinopathy; diabetic macular,
+Kidney,CKD,chronic kidney disease; kidney disease; renal disease; end-stage renal,ESRD
+Kidney,eGFR,glomerular filtration; kidney function; renal function; serum creatinine,eGFR
+Kidney,UACR,albumin; urine albumin; albumin-creatinine; proteinuria; microalbuminuria,UACR
+Metabolic,T2D,type 2 diabetes; diabetes mellitus type 2; non-insulin,T2D
+Metabolic,hypertension,hypertension; blood pressure; systolic blood pressure; diastolic blood pressure; pulse pressure,
+Metabolic,BMI,body mass index; obesity; overweight; waist circumference; body weight,BMI
+Metabolic,LDL,low-density lipoprotein,LDL; LDL cholesterol
+Metabolic,HDL,high-density lipoprotein,HDL; HDL cholesterol
+Metabolic,triglycerides,triglyceride; triglycerides; serum triglycerides,

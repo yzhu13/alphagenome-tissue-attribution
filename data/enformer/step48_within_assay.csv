@@ -1,0 +1,13 @@
+assay,metric,loci,top,P_boot(top #1),eye rank,kidney rank,of,liver rank
+DNASE,mean pct,eye,lung,0.346,7,3,12,12
+DNASE,mean pct,kidney,pancreas_islet,0.446,11,2,12,7
+DNASE,mean pct,metabolic,kidney,0.404,2,1,12,11
+DNASE,strong fraction,eye,muscle_adipose,0.532,2,5,12,12
+DNASE,strong fraction,kidney,pancreas_islet,0.514,9,3,12,5
+DNASE,strong fraction,metabolic,brain,0.384,9,3,12,9
+CAGE,mean pct,eye,gut,0.476,6,7,12,10
+CAGE,mean pct,kidney,liver,0.52,12,2,12,1
+CAGE,mean pct,metabolic,eye,0.208,1,10,12,11
+CAGE,strong fraction,eye,brain,0.702,9,5,12,6
+CAGE,strong fraction,kidney,liver,0.682,12,6,12,1
+CAGE,strong fraction,metabolic,pancreas_islet,0.59,9,8,12,3

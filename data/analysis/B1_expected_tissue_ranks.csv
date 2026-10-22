@@ -1,0 +1,61 @@
+trait,expected,set,method,n_loci,rank,of,top_tissue
+BMI,brain,primary,"raw, original pipeline",1686,6,12,eye
+BMI,brain,primary,calibrated DNase |q|,1686,5,12,eye
+BMI,brain,primary,calibrated DNase top-5%,1686,5,12,eye
+BMI,brain,primary,"null-calibrated, recommended all assays",1686,7,12,heart_vascular
+BMI,brain,primary,"null-calibrated, ORIGINAL scorer",1686,6,12,muscle_adipose
+LDL,liver,primary,"raw, original pipeline",136,1,12,liver
+LDL,liver,primary,calibrated DNase |q|,136,8,12,gut
+LDL,liver,primary,calibrated DNase top-5%,136,1,12,liver
+LDL,liver,primary,"null-calibrated, recommended all assays",136,6,12,reproductive
+LDL,liver,primary,"null-calibrated, ORIGINAL scorer",136,1,12,liver
+HDL,liver,primary,"raw, original pipeline",212,2,12,eye
+HDL,liver,primary,calibrated DNase |q|,212,7,12,lung
+HDL,liver,primary,calibrated DNase top-5%,212,3,12,kidney
+HDL,liver,primary,"null-calibrated, recommended all assays",212,8,12,gut
+HDL,liver,primary,"null-calibrated, ORIGINAL scorer",212,1,12,liver
+triglycerides,liver,primary,"raw, original pipeline",718,3,12,eye
+triglycerides,liver,primary,calibrated DNase |q|,718,8,12,skin
+triglycerides,liver,primary,calibrated DNase top-5%,718,3,12,skin
+triglycerides,liver,primary,"null-calibrated, recommended all assays",718,8,12,heart_vascular
+triglycerides,liver,primary,"null-calibrated, ORIGINAL scorer",718,1,12,liver
+T2D,pancreas_islet,primary,"raw, original pipeline",884,7,12,eye
+T2D,pancreas_islet,primary,calibrated DNase |q|,884,8,12,lung
+T2D,pancreas_islet,primary,calibrated DNase top-5%,884,12,12,eye
+T2D,pancreas_islet,primary,"null-calibrated, recommended all assays",884,5,12,heart_vascular
+T2D,pancreas_islet,primary,"null-calibrated, ORIGINAL scorer",884,5,12,immune
+hypertension,heart_vascular,primary,"raw, original pipeline",1514,6,12,eye
+hypertension,heart_vascular,primary,calibrated DNase |q|,1514,6,12,kidney
+hypertension,heart_vascular,primary,calibrated DNase top-5%,1514,4,12,skin
+hypertension,heart_vascular,primary,"null-calibrated, recommended all assays",1514,1,12,heart_vascular
+hypertension,heart_vascular,primary,"null-calibrated, ORIGINAL scorer",1514,2,12,muscle_adipose
+eGFR,kidney,primary,"raw, original pipeline",810,3,12,eye
+eGFR,kidney,primary,calibrated DNase |q|,810,2,12,skin
+eGFR,kidney,primary,calibrated DNase top-5%,810,1,12,kidney
+eGFR,kidney,primary,"null-calibrated, recommended all assays",810,7,12,heart_vascular
+eGFR,kidney,primary,"null-calibrated, ORIGINAL scorer",810,7,12,gut
+CKD,kidney,primary,"raw, original pipeline",582,4,12,liver
+CKD,kidney,primary,calibrated DNase |q|,582,2,12,lung
+CKD,kidney,primary,calibrated DNase top-5%,582,1,12,kidney
+CKD,kidney,primary,"null-calibrated, recommended all assays",582,9,12,heart_vascular
+CKD,kidney,primary,"null-calibrated, ORIGINAL scorer",582,9,12,liver
+UACR,kidney,primary,"raw, original pipeline",419,5,12,eye
+UACR,kidney,primary,calibrated DNase |q|,419,3,12,skin
+UACR,kidney,primary,calibrated DNase top-5%,419,1,12,kidney
+UACR,kidney,primary,"null-calibrated, recommended all assays",419,10,12,heart_vascular
+UACR,kidney,primary,"null-calibrated, ORIGINAL scorer",419,8,12,immune
+glaucoma,eye,secondary,"raw, original pipeline",316,1,12,eye
+glaucoma,eye,secondary,calibrated DNase |q|,316,1,12,eye
+glaucoma,eye,secondary,calibrated DNase top-5%,316,2,12,skin
+glaucoma,eye,secondary,"null-calibrated, recommended all assays",316,4,12,skin
+glaucoma,eye,secondary,"null-calibrated, ORIGINAL scorer",316,2,12,muscle_adipose
+IOP,eye,secondary,"raw, original pipeline",152,1,12,eye
+IOP,eye,secondary,calibrated DNase |q|,152,3,12,skin
+IOP,eye,secondary,calibrated DNase top-5%,152,1,12,eye
+IOP,eye,secondary,"null-calibrated, recommended all assays",152,12,12,heart_vascular
+IOP,eye,secondary,"null-calibrated, ORIGINAL scorer",152,11,12,muscle_adipose
+myopia,eye,secondary,"raw, original pipeline",513,1,12,eye
+myopia,eye,secondary,calibrated DNase |q|,513,4,12,muscle_adipose
+myopia,eye,secondary,calibrated DNase top-5%,513,1,12,eye
+myopia,eye,secondary,"null-calibrated, recommended all assays",513,12,12,muscle_adipose
+myopia,eye,secondary,"null-calibrated, ORIGINAL scorer",513,12,12,muscle_adipose

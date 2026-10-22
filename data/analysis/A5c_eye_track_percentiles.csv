@@ -1,0 +1,21 @@
+domain,biosample,track_name,abs_q,rank,n_tracks,percentile
+eye,choroid plexus epithelial cell,CL:0000706 DNase-seq,0.5883784170991485,2,305,99.672131147541
+kidney,choroid plexus epithelial cell,CL:0000706 DNase-seq,0.5853054440528368,9,305,97.37704918032787
+metabolic,choroid plexus epithelial cell,CL:0000706 DNase-seq,0.5667636908373787,8,305,97.70491803278688
+null,choroid plexus epithelial cell,CL:0000706 DNase-seq,0.5033484802246094,126,305,59.01639344262295
+eye,iris pigment epithelial cell,CL:0002565 DNase-seq,0.5743940290551258,28,305,91.14754098360656
+kidney,iris pigment epithelial cell,CL:0002565 DNase-seq,0.564675257918191,56,305,81.9672131147541
+metabolic,iris pigment epithelial cell,CL:0002565 DNase-seq,0.5527608275182039,37,305,88.19672131147541
+null,iris pigment epithelial cell,CL:0002565 DNase-seq,0.5015878601074218,157,305,48.85245901639344
+eye,non-pigmented ciliary epithelial cell,CL:0002304 DNase-seq,0.5638919059230298,51,305,83.60655737704919
+kidney,non-pigmented ciliary epithelial cell,CL:0002304 DNase-seq,0.5530420784657993,113,305,63.278688524590166
+metabolic,non-pigmented ciliary epithelial cell,CL:0002304 DNase-seq,0.5447526831765777,65,305,79.01639344262294
+null,non-pigmented ciliary epithelial cell,CL:0002304 DNase-seq,0.5042591552734375,110,305,64.26229508196721
+eye,retina,UBERON:0000966 DNase-seq,0.532241019625167,182,305,40.65573770491803
+kidney,retina,UBERON:0000966 DNase-seq,0.5139391692154714,257,305,16.065573770491802
+metabolic,retina,UBERON:0000966 DNase-seq,0.5203036350879854,247,305,19.34426229508197
+null,retina,UBERON:0000966 DNase-seq,0.5053505859375,94,305,69.50819672131148
+eye,retinal pigment epithelial cell,CL:0002586 DNase-seq,0.5701229812200858,33,305,89.50819672131148
+kidney,retinal pigment epithelial cell,CL:0002586 DNase-seq,0.5571517565183255,94,305,69.50819672131148
+metabolic,retinal pigment epithelial cell,CL:0002586 DNase-seq,0.5560198915351942,29,305,90.81967213114754
+null,retinal pigment epithelial cell,CL:0002586 DNase-seq,0.5021498413085937,143,305,53.442622950819676

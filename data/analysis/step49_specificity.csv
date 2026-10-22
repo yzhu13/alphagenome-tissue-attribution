@@ -1,0 +1,37 @@
+calibration,metric,loci,tissue,specificity,CI lo,CI hi,rank,P(#1),top
+AlphaGenome |q| (common-variant background),mean,eye,eye,0.014831483,-0.0037591339,0.030163031,1,0.65,eye
+AlphaGenome |q| (common-variant background),mean,kidney,kidney,0.0077217817,-0.005625361,0.021450164,4,0.058,lung
+AlphaGenome |q| (common-variant background),mean,kidney,eye,-0.004607439,-0.02115593,0.010990243,12,0.0,lung
+AlphaGenome |q| (common-variant background),mean,kidney,lung,0.012877107,5.7605037e-05,0.026907586,1,0.34,lung
+AlphaGenome |q| (common-variant background),mean,metabolic,eye,-0.010223985,-0.022495452,0.0031511218,10,0.008,pancreas_islet
+AlphaGenome |q| (common-variant background),mean,metabolic,pancreas_islet,0.00797689,-0.004954125,0.020385792,1,0.756,pancreas_islet
+AlphaGenome |q| (common-variant background),strong fraction,eye,eye,0.02121634,0.00407604,0.039801408,1,0.756,eye
+AlphaGenome |q| (common-variant background),strong fraction,kidney,kidney,0.013854861,0.0011657702,0.027064191,4,0.118,liver
+AlphaGenome |q| (common-variant background),strong fraction,kidney,eye,-0.005263455,-0.019232156,0.009111028,12,0.0,liver
+AlphaGenome |q| (common-variant background),strong fraction,kidney,liver,0.019694224,0.005955522,0.034654308,1,0.606,liver
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,eye,-0.015952893,-0.029180551,-0.0036872446,12,0.0,pancreas_islet
+AlphaGenome |q| (common-variant background),strong fraction,metabolic,pancreas_islet,0.0023185797,-0.0064474572,0.0111169405,1,0.514,pancreas_islet
+"null pct, random null",mean,eye,eye,0.015084147,-0.0012710717,0.030886138,1,0.706,eye
+"null pct, random null",mean,kidney,kidney,0.007765949,-0.005732348,0.02072914,4,0.056,lung
+"null pct, random null",mean,kidney,eye,-0.0045719147,-0.019702839,0.0117136985,12,0.0,lung
+"null pct, random null",mean,kidney,lung,0.012996912,-0.0003529205,0.026931513,1,0.374,lung
+"null pct, random null",mean,metabolic,eye,-0.010512233,-0.024320442,0.0034711165,10,0.002,pancreas_islet
+"null pct, random null",mean,metabolic,pancreas_islet,0.008000612,-0.0063484474,0.020382078,1,0.722,pancreas_islet
+"null pct, random null",strong fraction,eye,eye,0.020026274,0.003008275,0.03922871,1,0.704,eye
+"null pct, random null",strong fraction,kidney,kidney,0.014113359,0.0015713981,0.02683802,3,0.104,liver
+"null pct, random null",strong fraction,kidney,eye,-0.004362367,-0.018010909,0.010694051,12,0.0,liver
+"null pct, random null",strong fraction,kidney,liver,0.020305462,0.007962458,0.0343393,1,0.588,liver
+"null pct, random null",strong fraction,metabolic,eye,-0.015663907,-0.029146394,-0.004451634,12,0.0,pancreas_islet
+"null pct, random null",strong fraction,metabolic,pancreas_islet,0.0030193925,-0.004933417,0.013103612,1,0.582,pancreas_islet
+"null pct, matched null",mean,eye,eye,0.014971197,-0.00042324513,0.03128988,1,0.728,eye
+"null pct, matched null",mean,kidney,kidney,0.007926047,-0.006443535,0.019751806,4,0.066,lung
+"null pct, matched null",mean,kidney,eye,-0.004593551,-0.019889973,0.010308083,12,0.0,lung
+"null pct, matched null",mean,kidney,lung,0.013058066,0.0010400921,0.026934298,1,0.37,lung
+"null pct, matched null",mean,metabolic,eye,-0.0103776455,-0.023207884,0.0017022375,10,0.002,pancreas_islet
+"null pct, matched null",mean,metabolic,pancreas_islet,0.008283317,-0.005367054,0.021905432,1,0.778,pancreas_islet
+"null pct, matched null",strong fraction,eye,eye,0.017605148,0.0007594355,0.03505695,1,0.568,eye
+"null pct, matched null",strong fraction,kidney,kidney,0.014033817,0.0011642689,0.026221689,3,0.136,liver
+"null pct, matched null",strong fraction,kidney,eye,-0.0036341622,-0.017249472,0.009032025,10,0.0,liver
+"null pct, matched null",strong fraction,kidney,liver,0.018039778,0.0049343994,0.03268899,1,0.508,liver
+"null pct, matched null",strong fraction,metabolic,eye,-0.013970993,-0.02437121,-0.0021229752,12,0.002,pancreas_islet
+"null pct, matched null",strong fraction,metabolic,pancreas_islet,0.0025628097,-0.0062272013,0.010840103,1,0.498,pancreas_islet
