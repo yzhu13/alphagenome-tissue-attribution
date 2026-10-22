@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tissue-attribution"
+version = "0.2.0"
+description = "Safe tissue attribution for variant-effect scores from sequence-to-function models such as AlphaGenome"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Yan Zhu" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0"]
+keywords = ["AlphaGenome", "variant effect prediction", "GWAS", "tissue enrichment", "calibration"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Repository = "https://github.com/yzhu13/alphagenome-tissue-attribution"
+
+[tool.setuptools]
+packages = ["tissue_attribution"]

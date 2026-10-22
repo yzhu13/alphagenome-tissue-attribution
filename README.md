@@ -1,5 +1,7 @@
 # When every disease points to the eye
 
+[![tests](https://github.com/yzhu13/alphagenome-tissue-attribution/actions/workflows/tests.yml/badge.svg)](https://github.com/yzhu13/alphagenome-tissue-attribution/actions/workflows/tests.yml)
+
 Code and data for *When every disease points to the eye: assay-composition artifacts in AlphaGenome-based
 tissue attribution* (Zhu Y, Vrathasha V, Bradford Y, *et al.*, O'Brien JM, Setia-Verma S).
 
@@ -104,6 +106,10 @@ changes (`reports/metabolic_batch_sensitivity.md`, Supplementary Table 3).
 
 ## Using the tool on your own scores
 
+```bash
+pip install "git+https://github.com/yzhu13/alphagenome-tissue-attribution#subdirectory=tool"
+```
+
 ```python
 import tissue_attribution as ta
 scores = ta.from_alphagenome(tidy_scores)          # variant_id | track_name | assay | score
@@ -117,7 +123,7 @@ ta.tissue_specificity(cal, tracks, trait_sets, assay="DNase")  # check 6: each t
 
 `tissue_scores` refuses raw scores and refuses `metric="max"`, because the maximum over a tissue's
 tracks ranks tissues by how many tracks they have. It also warns when assays are pooled. The tool needs
-only numpy and pandas; run its tests with `python -m pytest tool/tests`.
+only numpy and pandas; run its tests with `pip install "./tool[test]"` and `python -m pytest tool/tests`.
 
 ## Data availability and licences
 

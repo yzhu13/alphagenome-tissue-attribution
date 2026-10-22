@@ -12,3 +12,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .pytest_cache/
+
+# Python packaging
+build/
+*.egg-info/

@@ -1,5 +1,5 @@
 """
-Synthetic tests for tissue_attribution. Run:  python tool/tests/test_core.py   (or pytest)
+Synthetic tests for tissue_attribution. Run:  python -m pytest tool/tests
 
 The simulation reproduces the paper's failure mode on purpose:
   tissue "dnase_only"  5 DNase tracks, no real signal
@@ -13,11 +13,14 @@ import warnings
 
 import numpy as np
 import pandas as pd
+import pytest
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-import tissue_attribution as ta  # noqa: E402
+try:
+    import tissue_attribution as ta
+except ImportError:  # running from a checkout without installing the package
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+    import tissue_attribution as ta  # noqa: E402
 
-RNG = np.random.default_rng(1)
 SCALE = {"DNase": 1.0, "RNA-seq": 0.2}
 
 
@@ -29,108 +32,127 @@ def make_tracks():
     return pd.DataFrame(rows, columns=["track_name", "tissue", "assay"])
 
 
-def simulate(tracks, n_variants, signal=0.0, prefix="v"):
+def simulate(rng, tracks, n_variants, signal=0.0, prefix="v"):
     rows = []
     for v in range(n_variants):
         for t in tracks.itertuples():
-            s = abs(RNG.normal(0, SCALE[t.assay]))
-            if signal and t.tissue == "true_hit" and t.assay == "DNase" and RNG.random() < 0.3:
+            s = abs(rng.normal(0, SCALE[t.assay]))
+            if signal and t.tissue == "true_hit" and t.assay == "DNase" and rng.random() < 0.3:
                 s += signal
             rows.append((f"{prefix}{v}", t.track_name, t.assay, s))
     return pd.DataFrame(rows, columns=["variant_id", "track_name", "assay", "score"])
 
 
-def test_all():
+@pytest.fixture(scope="module")
+def study():
+    """Test and null variants on the three-tissue design above."""
+    rng = np.random.default_rng(1)
     tracks = make_tracks()
+    test = simulate(rng, tracks, 300, signal=2.0, prefix="gwas")
+    null = simulate(rng, tracks, 600, prefix="null")
+    null_b = simulate(rng, tracks, 600, prefix="nullB")
     meta = tracks[["track_name", "tissue"]]
-    test = simulate(tracks, 300, signal=2.0, prefix="gwas")
-    null = simulate(tracks, 600, prefix="null")
+    return dict(tracks=tracks, meta=meta, test=test, null=null, null_b=null_b,
+                cal=ta.null_calibrate(test, null))
 
-    # the artifact: raw scores pooled across assays put the DNase-only tissue first
-    raw = test.merge(meta).groupby("tissue").score.mean().sort_values(ascending=False)
+
+def test_raw_pooled_scores_reproduce_the_artifact(study):
+    raw = study["test"].merge(study["meta"]).groupby("tissue").score.mean().sort_values(ascending=False)
     assert raw.index[0] == "dnase_only", raw
 
-    # check 1: composition table flags the DNase-only tissue
-    comp = ta.assay_composition(test, meta)
+
+def test_assay_composition_flags_single_assay_tissue(study):
+    comp = ta.assay_composition(study["test"], study["meta"])
     assert comp.loc["dnase_only", "share_DNase"] == 1.0
 
-    # check 3: calibration puts null variants at ~0.5 on every assay
-    cal_null = ta.null_calibrate(null, null)
-    assert all(abs(m - 0.5) < 0.02 for m in cal_null.groupby("assay").null_pct.mean()), \
-        cal_null.groupby("assay").null_pct.mean()
 
-    # checks 2 + 4: within-assay, calibrated, strong-effect fraction finds the true tissue
-    cal = ta.null_calibrate(test, null)
-    res = ta.tissue_scores(cal, meta, value="null_pct", metric="strong_fraction")
+def test_null_calibration_centres_null_variants(study):
+    cal_null = ta.null_calibrate(study["null"], study["null"])
+    means = cal_null.groupby("assay").null_pct.mean()
+    assert all(abs(m - 0.5) < 0.02 for m in means), means
+
+
+def test_within_assay_strong_fraction_finds_true_tissue(study):
+    res = ta.tissue_scores(study["cal"], study["meta"], value="null_pct", metric="strong_fraction")
     dn = res[res.assay == "DNase"].set_index("tissue")
     assert dn["rank"].idxmin() == "true_hit", dn
     assert set(res.assay) == {"DNase", "RNA-seq"}  # never pooled by default
 
-    # pooling assays is allowed only with a warning
-    with warnings.catch_warnings(record=True) as w:
-        warnings.simplefilter("always")
-        ta.tissue_scores(cal, meta, value="null_pct", pool_assays=True)
-        assert any("Pooling assays" in str(x.message) for x in w)
 
-    # the max over a tissue's tracks is refused (it ranks tissues by track count)
-    try:
-        ta.tissue_scores(cal, meta, value="null_pct", metric="max")
-        raise AssertionError("metric='max' should be refused")
-    except ValueError as e:
-        assert "track count" in str(e)
+def test_pooling_assays_warns(study):
+    with pytest.warns(UserWarning, match="Pooling assays"):
+        ta.tissue_scores(study["cal"], study["meta"], value="null_pct", pool_assays=True)
 
-    # raw scores are refused as `value="score"`
-    try:
-        ta.tissue_scores(test.assign(score=test.score * 10), meta, value="score")
-        raise AssertionError("raw scores should be refused")
-    except ValueError:
-        pass
 
-    # uncertainty and background sensitivity run and agree on the true tissue
-    b = ta.bootstrap_ranks(cal, meta, assay="DNase", n_boot=30, value="null_pct")
+def test_max_metric_is_refused(study):
+    with pytest.raises(ValueError, match="track count"):
+        ta.tissue_scores(study["cal"], study["meta"], value="null_pct", metric="max")
+
+
+def test_raw_scores_are_refused(study):
+    test = study["test"]
+    with pytest.raises(ValueError):
+        ta.tissue_scores(test.assign(score=test.score * 10), study["meta"], value="score")
+
+
+def test_bootstrap_and_background_sensitivity(study):
+    b = ta.bootstrap_ranks(study["cal"], study["meta"], assay="DNase", n_boot=30, value="null_pct")
     assert b.p_rank1.idxmax() == "true_hit", b
-    sens = ta.background_sensitivity(test, meta, null, simulate(tracks, 600, prefix="nullB"))
+    sens = ta.background_sensitivity(study["test"], study["meta"], study["null"], study["null_b"])
     assert "rank_change" in sens
 
-    # check 5
-    top = ta.top_tracks(cal, tracks, "true_hit")
+
+def test_top_tracks_returns_signal_assay_first(study):
+    top = ta.top_tracks(study["cal"], study["tracks"], "true_hit")
     assert (top.assay == "DNase").iloc[0]
 
-    # AlphaGenome adapter: gene-level rows reduced to the max per track; missing quantiles caught
+
+def test_alphagenome_adapter():
     tidy = pd.DataFrame({"variant_id": ["x"] * 3, "track_name": ["t1", "t1", "t2"],
                          "output_type": ["RNA_SEQ", "RNA_SEQ", "DNASE"],
                          "raw_score": [0.1, -0.3, 2.0], "quantile_score": [0.2, -0.9, 0.99]})
-    a = ta.from_alphagenome(tidy)
+    a = ta.from_alphagenome(tidy)  # gene-level rows reduced to the max per track
     assert len(a) == 2 and a.loc[a.track_name == "t1", "score"].item() == 0.9
-    try:
+    with pytest.raises(ValueError):
         ta.from_alphagenome(tidy.assign(quantile_score=np.nan))
-        raise AssertionError("missing quantiles should raise")
-    except ValueError:
-        pass
-    # check 6: a tissue lifted for EVERY trait set wins on absolute scores but not on specificity
-    tr2 = pd.DataFrame([(f"{t}_d{i}", t, "DNase") for t in ["lifted", "specific", "plain"] for i in range(6)],
-                       columns=["track_name", "tissue", "assay"])
+
+
+@pytest.fixture(scope="module")
+def lifted_design():
+    """A tissue lifted for EVERY trait set, and one specific to trait A."""
+    rng = np.random.default_rng(2)
+    tracks = pd.DataFrame([(f"{t}_d{i}", t, "DNase") for t in ["lifted", "specific", "plain"] for i in range(6)],
+                          columns=["track_name", "tissue", "assay"])
     rows = []
     for trait in ["A", "B", "C"]:
         for v in range(150):
-            for t in tr2.itertuples():
+            for t in tracks.itertuples():
                 p = 0.5 + 0.3 * (t.tissue == "lifted") + 0.25 * (t.tissue == "specific" and trait == "A")
-                rows.append((f"{trait}{v}", t.track_name, "DNase", min(RNG.uniform(0, 1) + p - 0.5, 1.0)))
-    sc = pd.DataFrame(rows, columns=["variant_id", "track_name", "assay", "null_pct"])
-    sets = pd.DataFrame({"variant_id": sc.variant_id.unique()}).assign(trait=lambda x: x.variant_id.str[0])
-    absolute = ta.tissue_scores(sc[sc.variant_id.str.startswith("A")], tr2, metric="mean")
+                rows.append((f"{trait}{v}", t.track_name, "DNase", min(rng.uniform(0, 1) + p - 0.5, 1.0)))
+    scores = pd.DataFrame(rows, columns=["variant_id", "track_name", "assay", "null_pct"])
+    sets = pd.DataFrame({"variant_id": scores.variant_id.unique()}).assign(trait=lambda x: x.variant_id.str[0])
+    return tracks, scores, sets
+
+
+def test_lifted_tissue_wins_on_absolute_scores(lifted_design):
+    tracks, scores, _ = lifted_design
+    absolute = ta.tissue_scores(scores[scores.variant_id.str.startswith("A")], tracks, metric="mean")
     assert absolute.set_index("tissue")["rank"].idxmin() == "lifted", absolute
-    spec = ta.tissue_specificity(sc, tr2, sets, assay="DNase", metric="mean", n_boot=50)
+
+
+def test_specificity_removes_tissue_wide_lift(lifted_design):
+    tracks, scores, sets = lifted_design
+    spec = ta.tissue_specificity(scores, tracks, sets, assay="DNase", metric="mean", n_boot=50)
     a = spec[spec.trait == "A"].set_index("tissue")
     assert a["rank"].idxmin() == "specific" and a.loc["specific", "ci_lo"] > 0, a
     assert abs(a.loc["lifted", "specificity"]) < 0.03, a
-    try:
-        ta.tissue_specificity(sc, tr2, sets, assay="DNase", metric="max")
-        raise AssertionError("metric='max' should be refused")
-    except ValueError:
-        pass
-    print("all tests passed")
+
+
+def test_specificity_refuses_max(lifted_design):
+    tracks, scores, sets = lifted_design
+    with pytest.raises(ValueError):
+        ta.tissue_specificity(scores, tracks, sets, assay="DNase", metric="max")
 
 
 if __name__ == "__main__":
-    test_all()
+    sys.exit(pytest.main([__file__, "-q"]))

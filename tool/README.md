@@ -12,7 +12,12 @@ default: calibrate, compare within one assay, summarise by strong effects, repor
 
 ## Install
 
-Copy the `tissue_attribution/` folder next to your code (only `numpy` and `pandas` are needed).
+```bash
+pip install "git+https://github.com/yzhu13/alphagenome-tissue-attribution#subdirectory=tool"
+```
+
+Only `numpy` and `pandas` are needed, so you can also copy the `tissue_attribution/` folder next to your code.
+Run the tests with `pip install "./tool[test]"` and `python -m pytest tool/tests`.
 
 ## Input
 
