@@ -14,7 +14,7 @@ the checks of the paper's Box 2 on your own scores.
 
 | Path | Contents |
 |---|---|
-| `scripts/` | the pipeline, `step01`–`step49`, figures, and `run_pipeline.py`, which runs it in order |
+| `scripts/` | the pipeline, `step01`–`step50`, figures, and `run_pipeline.py`, which runs it in order |
 | `scripts/paths.py` | every file location, relative to the repository root |
 | `tool/` | the `tissue_attribution` package, its tests, and a script that reproduces Fig. 3a from the study data |
 | `data/inputs/` | inputs built by steps 01–05: track catalogue, GWAS loci, allele resolution, multiallelic audit, locus table |
